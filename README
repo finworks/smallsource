@@ -1,6 +1,6 @@
 Smallsource is a smalltalk project about managing source code. Since Smalltalk is manages source in an image, it often is a problem to interact with source code management systems.
 
-What this code currently does, is to add a new kind of Monticello repository, called a file tree. If you add such repository, you will be able to save a monticello package there. The package will be saved as files. The mapping is as follows:
+What this code currently does, is to add a new kind of Monticello repository, called a file tree. If you add such repository, you will be able to save a monticello package there. The package will be saved as files. You can also load code from this kind of repository. Browse differences works. I'll list the things that do not work as issues :-). The mapping is as follows:
 
 <Package Name>.tree                                is a directory in which the package is saved
 <Package Name>.tree/version                        is the version file
