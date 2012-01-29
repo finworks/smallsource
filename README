@@ -1,5 +1,18 @@
 Smallsource is a smalltalk project about managing source code. Since Smalltalk is manages source in an image, it often is a problem to interact with source code management systems.
 
+What this code currently does, is to add a new kind of Monticello repository, called a file tree. If you add such repository, you will be able to save a monticello package there. The package will be saved as files. The mapping is as follows:
+
+<Package Name>.tree                                is a directory in which the package is saved
+<Package Name>.tree/version                        is the version file
+<Package Name>.tree/package                        is the original package file, (can be "constructed on the fly" I suppose)
+<Package Name>.tree/initializers                   contains all the class initializers code
+<Package Name>.tree/<Class Name>                   a directory for the class definition and the instance methods
+<Package Name>.tree/<Class Name>/<Class Name>      definition for the class name
+<Package Name>.tree/<Class Name>/<selector>        instance side method definition
+<Package Name>.tree/<Class Name>/encoded slash     / is the only method that does not work out of the box. stupid name to use, I know
+<Package Name>.tree/<Class Name>_class             directory with class side methods
+<Package Name>.tree/<Class Name>_class/<selector>  a class method
+
 Here are some ideas:
 1. If we have a file mapping to Smalltalk source, we can manage the source in external source code management systems, such as git or mercurial.
 2. We must somehow interoperate with Monticello and Metacello to be able to interchangeably work with the loads of Smalltalk code out there.
