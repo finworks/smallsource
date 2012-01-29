@@ -1,0 +1,4 @@
+
+ArrayedCollection class
+	uses: TSortable classTrait
+	instanceVariableNames: ''!

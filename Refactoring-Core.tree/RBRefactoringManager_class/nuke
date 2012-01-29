@@ -1,0 +1,5 @@
+
+!RBRefactoringManager class methodsFor: 'public' stamp: 'lr 4/4/2010 08:32'!
+nuke
+	Instance notNil ifTrue: [ Instance release ].
+	Instance := nil! !

@@ -1,0 +1,6 @@
+
+!String methodsFor: 'converting' stamp: 'ar 4/12/2005 17:36'!
+asWideString 
+	self isWideString
+		ifTrue:[^self]
+		ifFalse:[^WideString from: self]! !

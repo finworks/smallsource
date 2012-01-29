@@ -1,0 +1,11 @@
+
+!String methodsFor: 'internet' stamp: 'StephaneDucasse 7/11/2010 15:51'!
+withoutWrappingDoubleQuotes
+	"remove the initial and final quote marks, if present"
+	"'''h''' withoutWrappingDoubleQuotes"
+	| quote |
+	self size < 2 ifTrue: [ ^self ].
+	quote := self first.
+	quote = $"
+		ifTrue: [ ^self copyFrom: 2 to: self size - 1 ]
+		ifFalse: [ ^self ].! !

@@ -1,0 +1,7 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+numberOfSelfSendsIn: aParseTree 
+	| search |
+	search := RBParseTreeSearcher new.
+	search matches: self messagePattern do: [:aNode :answer | answer + 1].
+	^search executeTree: aParseTree initialAnswer: 0! !

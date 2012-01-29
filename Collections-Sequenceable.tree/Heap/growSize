@@ -1,0 +1,5 @@
+
+!Heap methodsFor: 'growing' stamp: 'ar 7/1/1999 04:18'!
+growSize
+	"Return the size by which the receiver should grow if there are no empty slots left."
+	^array size max: 5! !

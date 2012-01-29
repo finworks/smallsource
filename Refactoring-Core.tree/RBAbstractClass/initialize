@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'initialize-release' stamp: ''!
+initialize
+	name := #'Unknown Class'! !

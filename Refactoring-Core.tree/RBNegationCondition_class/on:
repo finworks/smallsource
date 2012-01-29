@@ -1,0 +1,4 @@
+
+!RBNegationCondition class methodsFor: 'instance creation' stamp: ''!
+on: aCondition
+	^self new condition: aCondition! !

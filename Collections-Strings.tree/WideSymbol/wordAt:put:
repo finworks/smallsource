@@ -1,0 +1,4 @@
+
+!WideSymbol methodsFor: 'accessing' stamp: 'ar 4/10/2005 23:39'!
+wordAt: index put: anInteger
+	self errorNoModification.! !

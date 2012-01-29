@@ -1,0 +1,5 @@
+
+!RBRefactoring methodsFor: 'private' stamp: ''!
+primitiveExecute
+	self checkPreconditions.
+	self transform! !

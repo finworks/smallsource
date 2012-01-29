@@ -1,0 +1,6 @@
+
+!RBMetaclass class methodsFor: 'instance creation' stamp: ''!
+named: aSymbol 
+	^(self new)
+		name: aSymbol;
+		yourself! !

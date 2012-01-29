@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'initialize-release' stamp: ''!
+model: aRBNamespace 
+	model := aRBNamespace! !

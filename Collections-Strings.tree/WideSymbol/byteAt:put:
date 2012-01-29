@@ -1,0 +1,4 @@
+
+!WideSymbol methodsFor: 'accessing' stamp: 'ar 4/10/2005 23:38'!
+byteAt: index put: aByte
+	self errorNoModification.! !

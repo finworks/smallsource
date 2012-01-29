@@ -1,0 +1,4 @@
+
+!RBInlineMethodRefactoring methodsFor: 'testing' stamp: ''!
+isPrimitive
+	^inlineParseTree isPrimitive! !

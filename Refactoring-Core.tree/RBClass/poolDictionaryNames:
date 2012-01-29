@@ -1,0 +1,5 @@
+
+!RBClass methodsFor: 'accessing' stamp: ''!
+poolDictionaryNames: aCollectionOfStrings 
+	poolDictionaryNames := (aCollectionOfStrings 
+				collect: [:each | each asSymbol]) asOrderedCollection! !

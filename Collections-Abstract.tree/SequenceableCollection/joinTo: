@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'splitjoin' stamp: 'onierstrasz 4/12/2009 19:58'!
+joinTo: stream
+	"double dispatch for join:"
+	^ stream nextPutAll: self! !

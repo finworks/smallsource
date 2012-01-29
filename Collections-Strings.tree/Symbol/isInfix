@@ -1,0 +1,6 @@
+
+!Symbol methodsFor: 'testing' stamp: 'StephaneDucasse 5/28/2011 13:45'!
+isInfix
+	"Answer whether the receiver is an infix message selector."
+
+	^ self precedence = 2! !

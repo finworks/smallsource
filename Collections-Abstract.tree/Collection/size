@@ -1,0 +1,9 @@
+
+!Collection methodsFor: 'accessing' stamp: 'sma 5/12/2000 11:34'!
+size
+	"Answer how many elements the receiver contains."
+
+	| tally |
+	tally := 0.
+	self do: [:each | tally := tally + 1].
+	^ tally! !

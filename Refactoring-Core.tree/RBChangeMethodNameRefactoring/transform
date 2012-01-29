@@ -1,0 +1,6 @@
+
+!RBChangeMethodNameRefactoring methodsFor: 'transforming' stamp: 'lr 12/23/2009 20:00'!
+transform
+	self renameImplementors.
+	self renameMessageSends.
+	self removeRenamedImplementors! !

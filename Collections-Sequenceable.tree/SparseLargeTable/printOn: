@@ -1,0 +1,8 @@
+
+!SparseLargeTable methodsFor: 'printing' stamp: 'yo 12/1/2003 15:58'!
+printOn: aStream
+
+	(#(String) includes: self arrayClass name) 
+		ifTrue: [^self storeOn: aStream].
+	^super printOn: aStream
+! !

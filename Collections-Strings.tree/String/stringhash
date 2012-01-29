@@ -1,0 +1,6 @@
+
+!String methodsFor: 'private' stamp: 'yo 8/28/2002 15:22'!
+stringhash
+
+	^ self hash.
+! !

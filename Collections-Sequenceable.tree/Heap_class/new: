@@ -1,0 +1,4 @@
+
+!Heap class methodsFor: 'instance creation' stamp: 'ar 7/1/1999 04:20'!
+new: n
+	^super new setCollection: (Array new: n)! !

@@ -1,0 +1,6 @@
+
+!SparseLargeTable class methodsFor: 'instance creation' stamp: 'yo 12/1/2003 16:07'!
+new: size chunkSize: chunkSize
+
+	^self new: size chunkSize: chunkSize arrayClass: Array
+! !

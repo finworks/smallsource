@@ -1,0 +1,5 @@
+
+!RBInlineMethodFromComponentRefactoring methodsFor: 'transforming' stamp: ''!
+renameSelfReferences
+	self addSelfReferenceToSourceMessage.
+	self addSelfReferenceToInlineParseTree.! !

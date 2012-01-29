@@ -1,0 +1,5 @@
+
+!ArrayedCollection methodsFor: 'objects from disk' stamp: 'nk 3/17/2004 15:22'!
+byteSize
+	^self basicSize * self bytesPerBasicElement
+! !

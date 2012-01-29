@@ -1,0 +1,5 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'SheridanMahoney 11/12/2009 22:04'!
+new: aSize
+
+	self shouldNotImplement .! !

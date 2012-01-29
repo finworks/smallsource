@@ -1,0 +1,4 @@
+
+!RBRefactoryTyper methodsFor: 'private' stamp: 'lr 5/29/2010 10:01'!
+rootClasses
+	^ model rootClasses! !

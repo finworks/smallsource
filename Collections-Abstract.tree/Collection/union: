@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'sma 5/12/2000 17:54'!
+union: aCollection
+	"Answer the set theoretic union of two collections."
+
+	^ self asSet addAll: aCollection; yourself! !

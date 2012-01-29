@@ -1,0 +1,4 @@
+
+!OrderedCollection methodsFor: 'private' stamp: ''!
+collector  "Private"
+	^ array! !

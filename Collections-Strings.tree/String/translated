@@ -1,0 +1,6 @@
+
+!String methodsFor: 'translating' stamp: 'HilaireFernandes 5/14/2010 17:50'!
+translated
+"answer the receiver translated to the default language"
+	^ NaturalLanguageTranslator translate: self
+! !

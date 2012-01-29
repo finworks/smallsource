@@ -1,0 +1,6 @@
+
+!SparseLargeTable methodsFor: 'accessing' stamp: 'yo 12/1/2003 17:56'!
+base
+
+	^ base.
+! !

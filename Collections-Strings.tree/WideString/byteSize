@@ -1,0 +1,6 @@
+
+!WideString methodsFor: 'accessing' stamp: 'yo 8/27/2002 14:22'!
+byteSize
+
+	^ self size * 4.
+! !

@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'testing' stamp: 'sma 5/12/2000 17:49'!
+notEmpty
+	"Answer whether the receiver contains any elements."
+
+	^ self isEmpty not! !

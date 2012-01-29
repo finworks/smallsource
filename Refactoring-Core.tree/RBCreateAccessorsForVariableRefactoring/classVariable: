@@ -1,0 +1,4 @@
+
+!RBCreateAccessorsForVariableRefactoring methodsFor: 'initialize-release' stamp: ''!
+classVariable: aBoolean 
+	classVariable := aBoolean! !

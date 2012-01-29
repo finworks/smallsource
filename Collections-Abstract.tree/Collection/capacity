@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'accessing' stamp: 'sma 5/12/2000 11:41'!
+capacity
+	"Answer the current capacity of the receiver."
+
+	^ self size! !

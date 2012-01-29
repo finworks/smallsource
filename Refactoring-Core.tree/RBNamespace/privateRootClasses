@@ -1,0 +1,11 @@
+
+!RBNamespace methodsFor: 'private' stamp: 'lr 4/7/2010 13:45'!
+privateRootClasses
+	| classes |
+	classes := OrderedCollection new.
+	Class rootsOfTheWorld do: [ :each | 
+		| class |
+		class := self classFor: each.
+		(class notNil and: [ class superclass isNil ]) 
+			ifTrue: [ classes add: class ] ].
+	^ classes! !

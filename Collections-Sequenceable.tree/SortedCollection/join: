@@ -1,0 +1,6 @@
+
+!SortedCollection methodsFor: 'splitjoin' stamp: 'onierstrasz 4/12/2009 19:57'!
+join: aCollection 
+	"Curiously addAllLast: does not trigger a reSort, so we must do it here."
+	^ (super join: aCollection) reSort; yourself
+! !

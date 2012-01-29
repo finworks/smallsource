@@ -1,0 +1,7 @@
+
+!RBInlineTemporaryRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		replaceAssignment;
+		replaceReferences;
+		compileMethod! !

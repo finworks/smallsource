@@ -1,0 +1,6 @@
+
+!String methodsFor: 'printing' stamp: 'sd 7/8/2006 18:06'!
+printOn: aStream 
+	"Print inside string quotes, doubling inbedded quotes."
+ 
+	self storeOn: aStream! !

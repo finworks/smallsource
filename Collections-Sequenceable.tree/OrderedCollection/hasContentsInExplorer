@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'testing' stamp: 'md 8/13/2008 21:40'!
+hasContentsInExplorer
+
+	^self notEmpty! !

@@ -1,0 +1,4 @@
+
+!OrderedCollection methodsFor: 'adding' stamp: ''!
+growSize
+	^ array size max: 2! !

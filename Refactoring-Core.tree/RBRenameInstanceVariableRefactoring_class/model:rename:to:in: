@@ -1,0 +1,9 @@
+
+!RBRenameInstanceVariableRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBSmalltalk rename: aVarName to: aName in: aClass 
+	^(self new)
+		model: aRBSmalltalk;
+		rename: aVarName
+			to: aName
+			in: aClass;
+		yourself! !

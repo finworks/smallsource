@@ -1,0 +1,7 @@
+
+!Collection methodsFor: 'adding' stamp: 'sma 5/12/2000 17:21'!
+add: newObject withOccurrences: anInteger
+	"Add newObject anInteger times to the receiver. Answer newObject."
+
+	anInteger timesRepeat: [self add: newObject].
+	^ newObject! !

@@ -1,0 +1,7 @@
+
+!String methodsFor: 'comparing' stamp: 'lr 7/7/2006 11:21'!
+> aString 
+	"Answer whether the receiver sorts after aString.
+	The collation order is simple ascii (with case differences)."
+
+	^ (self compare: self with: aString collated: AsciiOrder) = 3! !

@@ -1,0 +1,4 @@
+
+!RBAbstractCondition methodsFor: 'checking' stamp: ''!
+check
+	self subclassResponsibility! !

@@ -1,0 +1,6 @@
+
+!Interval methodsFor: 'accessing' stamp: ''!
+increment
+	"Answer the receiver's interval increment."
+
+	^step! !

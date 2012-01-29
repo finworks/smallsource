@@ -1,0 +1,4 @@
+
+!RBMethod methodsFor: 'accessing' stamp: 'lr 11/1/2009 23:15'!
+source
+	^ source ifNil: [ source := (class realClass sourceCodeAt: selector) asString ]! !

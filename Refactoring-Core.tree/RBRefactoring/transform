@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self subclassResponsibility! !

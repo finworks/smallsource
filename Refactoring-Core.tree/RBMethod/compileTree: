@@ -1,0 +1,15 @@
+
+!RBMethod methodsFor: 'compiling' stamp: 'lr 11/1/2009 23:53'!
+compileTree: aBRMethodNode
+	| method sourceCode change |
+	sourceCode := aBRMethodNode newSource.
+	change := self modelClass model
+		compile: sourceCode
+		in: self modelClass
+		classified: self protocols.
+	method := self class
+		for: self modelClass
+		source: sourceCode
+		selector: aBRMethodNode selector.
+	self modelClass addMethod: method.
+	^ change! !

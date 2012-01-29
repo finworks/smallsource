@@ -1,0 +1,6 @@
+
+!HashedCollection methodsFor: 'accessing' stamp: 'TristanBourgois 4/30/2010 16:13'!
+someElement
+	"Deprecated. Use anyOne."
+
+	^ self anyOne! !

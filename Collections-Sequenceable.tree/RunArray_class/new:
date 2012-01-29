@@ -1,0 +1,4 @@
+
+!RunArray class methodsFor: 'instance creation' stamp: 'dc 5/24/2007 10:53'!
+new: aSize
+	^ self new: aSize withAll: nil! !

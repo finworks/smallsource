@@ -1,0 +1,5 @@
+
+!RBRefactoringError methodsFor: 'accessing' stamp: 'lr 10/5/2010 16:07'!
+actionBlock
+	^ actionBlock
+	! !

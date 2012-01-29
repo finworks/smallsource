@@ -1,0 +1,4 @@
+
+!RBRemoveClassRefactoring methodsFor: 'initialize-release' stamp: ''!
+classNames: aClassNameCollection 
+	classNames := aClassNameCollection! !

@@ -1,0 +1,6 @@
+
+!SparseLargeTable methodsFor: 'private' stamp: 'nk 8/31/2004 08:34'!
+copyEmpty
+	"Answer a copy of the receiver that contains no elements."
+	^self speciesNew: 0
+! !

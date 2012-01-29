@@ -1,0 +1,4 @@
+
+!RBMetaclass methodsFor: 'accessing' stamp: 'lr 10/26/2009 22:08'!
+allClassVariableNames
+	^ self theNonMetaClass allClassVariableNames! !

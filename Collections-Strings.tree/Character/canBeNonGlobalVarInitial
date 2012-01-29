@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'testing' stamp: 'yo 8/5/2003 16:58'!
+canBeNonGlobalVarInitial
+
+	^ (EncodedCharSet charsetAt: self leadingChar) canBeNonGlobalVarInitial: self.
+! !

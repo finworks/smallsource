@@ -1,0 +1,4 @@
+
+!RBSplitClassRefactoring methodsFor: 'transforming' stamp: ''!
+abstractVariableReferences
+	instanceVariables do: [:each | self abstractReferenceTo: each]! !

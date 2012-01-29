@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'utilities' stamp: ''!
+checkInstanceVariableName: aName in: aClass 
+	^RBCondition checkInstanceVariableName: aName in: aClass! !

@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'private' stamp: 'SvenVanCaekenberghe 4/21/2011 13:02'!
+errorOutOfBounds
+
+	SubscriptOutOfBounds signal! !

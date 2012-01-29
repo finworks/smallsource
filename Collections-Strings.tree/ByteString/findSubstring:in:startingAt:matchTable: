@@ -1,0 +1,5 @@
+
+!ByteString methodsFor: 'comparing' stamp: 'JMM 10/30/2006 15:58'!
+findSubstring: key in: body startingAt: start matchTable: matchTable
+	key isWideString ifTrue: [^super findSubstring: key in: body startingAt: start matchTable: matchTable].
+	^self findSubstringViaPrimitive: key in: body startingAt: start matchTable: matchTable! !

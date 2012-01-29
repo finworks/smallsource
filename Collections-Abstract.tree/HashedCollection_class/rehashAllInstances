@@ -1,0 +1,6 @@
+
+!HashedCollection class methodsFor: 'initialization' stamp: 'StephaneDucasse 10/18/2010 14:49'!
+rehashAllInstances
+	"Do not use #allInstancesDo: because rehash may create new instances."
+	
+	self allInstances do: [ :each | each rehash ]! !

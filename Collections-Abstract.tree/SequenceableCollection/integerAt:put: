@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'ar 3/3/2001 22:43'!
+integerAt: index put: value
+	"Return the integer at the given index"
+	^self at: index put: value! !

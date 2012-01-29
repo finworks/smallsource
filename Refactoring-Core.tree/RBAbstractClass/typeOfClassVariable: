@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'variable accessing' stamp: ''!
+typeOfClassVariable: aSymbol 
+	^model classNamed: #Object! !

@@ -1,0 +1,6 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'TristanBourgois 4/30/2010 16:13'!
+atNewIndex: index put: anObject
+	array at: index put: anObject.
+	tally := tally + 1.
+	self fullCheck! !

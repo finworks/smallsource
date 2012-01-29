@@ -1,0 +1,8 @@
+
+!RBMoveMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+replaceVariableReferences
+	| replacer |
+	replacer := RBParseTreeRewriter new.
+	replacer replace: variable with: 'self'.
+	replacer executeTree: parseTree.
+	parseTree := replacer tree! !

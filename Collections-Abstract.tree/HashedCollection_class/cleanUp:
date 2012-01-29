@@ -1,0 +1,7 @@
+
+!HashedCollection class methodsFor: 'cleanup' stamp: 'HenrikSperreJohansen 9/1/2010 23:40'!
+cleanUp: aggressive
+	"Rehash all instances when cleaning aggressively"
+
+	aggressive ifTrue: [self compactAll].
+! !

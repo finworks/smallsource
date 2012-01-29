@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'splitjoin' stamp: 'onierstrasz 4/12/2009 19:58'!
+appendTo: aCollection
+	"double dispatch for join:"
+	^ aCollection addAllLast: self! !

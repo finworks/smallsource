@@ -1,0 +1,4 @@
+
+!RBCondition class methodsFor: 'utilities' stamp: ''!
+checkMethodName: aName in: aClass 
+	^aName isString and: [RBScanner isSelector: aName]! !

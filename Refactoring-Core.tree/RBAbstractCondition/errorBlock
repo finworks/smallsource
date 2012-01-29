@@ -1,0 +1,4 @@
+
+!RBAbstractCondition methodsFor: 'accessing' stamp: ''!
+errorBlock
+	^self errorBlockFor: false! !

@@ -1,0 +1,4 @@
+
+!RBRefactoring class methodsFor: 'accessing' stamp: 'lr 1/18/2010 21:03'!
+refactoringOptions
+	^ RefactoringOptions! !

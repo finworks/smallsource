@@ -1,0 +1,4 @@
+
+!RBClass methodsFor: 'accessing' stamp: 'lr 7/1/2008 10:55'!
+comment: aString
+	model comment: (comment := aString) in: self! !

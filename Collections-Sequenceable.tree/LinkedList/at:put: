@@ -1,0 +1,5 @@
+
+!LinkedList methodsFor: 'accessing' stamp: 'HenrikSperreJohansen 10/19/2009 10:53'!
+at: index put: anObject
+
+	^self at: index putLink: (self linkOf: anObject ifAbsent: [anObject asLink])! !

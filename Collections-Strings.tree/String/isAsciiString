@@ -1,0 +1,8 @@
+
+!String methodsFor: 'testing' stamp: 'yo 8/4/2003 12:26'!
+isAsciiString
+
+	| c |
+	c := self detect: [:each | each asciiValue > 127] ifNone: [nil].
+	^ c isNil.
+! !

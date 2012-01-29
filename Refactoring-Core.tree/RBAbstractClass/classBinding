@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: 'lr 7/23/2010 08:02'!
+classBinding
+	^ Smalltalk globals associationAt: self name! !

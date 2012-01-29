@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'converting' stamp: 'TAG 11/6/1998 15:55'!
+@ aCollection 
+	^ self with: aCollection collect: [:a :b | a @ b]! !

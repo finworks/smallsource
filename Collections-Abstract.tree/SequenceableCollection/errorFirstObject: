@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'private' stamp: 'sma 5/12/2000 18:06'!
+errorFirstObject: anObject
+	self error: 'specified object is first object'! !

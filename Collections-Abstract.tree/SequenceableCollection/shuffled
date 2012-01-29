@@ -1,0 +1,8 @@
+
+!SequenceableCollection methodsFor: 'copying' stamp: 'sma 5/12/2000 12:36'!
+shuffled
+	^ self shuffledBy: Collection randomForPicking
+
+"Examples:
+	($A to: $Z) shuffled
+"! !

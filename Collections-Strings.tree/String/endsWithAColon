@@ -1,0 +1,11 @@
+
+!String methodsFor: 'system primitives' stamp: 'sw 10/20/2004 17:51'!
+endsWithAColon 
+	"Answer whether the final character of the receiver is a colon"
+
+	^ self size > 0 and: [self last == $:]
+
+"
+#fred: endsWithAColon
+'fred' endsWithAColon
+"! !

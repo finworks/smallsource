@@ -1,0 +1,6 @@
+
+!RBAbstractClass methodsFor: 'testing' stamp: 'lr 1/3/2010 11:47'!
+subclassRedefines: aSelector
+	"Return true, if one of your subclasses redefines the method with name, aMethod"
+
+	^ self allSubclasses anySatisfy: [ :each | each directlyDefinesMethod: aSelector ]! !

@@ -1,0 +1,5 @@
+
+!RBClass methodsFor: 'initialize-release' stamp: 'lr 7/1/2008 10:58'!
+initialize
+	super initialize.
+	comment := LookupComment! !

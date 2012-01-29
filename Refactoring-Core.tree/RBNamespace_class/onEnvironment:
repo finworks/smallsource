@@ -1,0 +1,6 @@
+
+!RBNamespace class methodsFor: 'instance creation' stamp: ''!
+onEnvironment: aBrowserEnvironment 
+	^(self new)
+		environment: aBrowserEnvironment;
+		yourself! !

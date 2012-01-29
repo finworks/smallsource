@@ -1,0 +1,8 @@
+
+!OrderedCollection methodsFor: 'accessing' stamp: 'CamilloBruni 4/11/2011 15:36'!
+at: anInteger 
+	"Answer my element at index anInteger. at: is used by a knowledgeable
+	client to access an existing element"
+
+	self ensureBoundsFrom: anInteger to: anInteger.
+	^ array at: anInteger + firstIndex - 1! !

@@ -1,0 +1,8 @@
+
+!HashedCollection methodsFor: 'adding' stamp: 'HenrikSperreJohansen 9/1/2010 22:00'!
+add: newObject withOccurrences: anInteger
+	"Add newObject anInteger times to the receiver. Do nothing if anInteger is less than one. Answer newObject."
+	
+	anInteger < 1 ifTrue: [ ^newObject ].
+	"I can only store an object once."
+	^ self add: newObject! !

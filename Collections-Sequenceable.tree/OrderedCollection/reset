@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'private' stamp: 'di 11/14/97 12:54'!
+reset
+	firstIndex := array size // 3 max: 1.
+	lastIndex := firstIndex - 1! !

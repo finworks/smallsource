@@ -1,0 +1,4 @@
+
+!SortedCollection methodsFor: 'private' stamp: 'sma 4/28/2000 17:46'!
+reSort
+	self sort: firstIndex to: lastIndex! !

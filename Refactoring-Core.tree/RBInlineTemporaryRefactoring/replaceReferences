@@ -1,0 +1,9 @@
+
+!RBInlineTemporaryRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+replaceReferences
+	| rewriter |
+	rewriter := RBParseTreeRewriter new.
+	rewriter replaceTree: assignmentNode variable
+		withTree: assignmentNode value.
+	definingNode removeTemporaryNamed: assignmentNode variable name.
+	rewriter executeTree: definingNode! !

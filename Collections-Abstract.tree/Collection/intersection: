@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'sma 5/12/2000 17:52'!
+intersection: aCollection
+	"Answer the set theoretic intersection of two collections."
+
+	^ self select: [:each | aCollection includes: each]! !

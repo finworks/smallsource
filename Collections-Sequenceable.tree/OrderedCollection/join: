@@ -1,0 +1,9 @@
+
+!OrderedCollection methodsFor: 'splitjoin' stamp: 'onierstrasz 4/12/2009 19:44'!
+join: aCollection 
+	| result |
+	result := self class new.
+	aCollection
+		do: [:each | each appendTo: result]
+		separatedBy: [self appendTo: result].
+	^ result! !

@@ -1,0 +1,16 @@
+
+!Character methodsFor: 'printing' stamp: 'MarcusDenker 4/20/2011 10:45'!
+storeOn: aStream
+	"Common character literals are preceded by '$', however special need to be encoded differently: for some this might be done by using one of the shortcut constructor methods for the rest we have to create them by ascii-value."
+
+	| name |
+	((value between: 33 and: 255) and: [ value ~= 127])
+		ifTrue: [ aStream nextPut: $$; nextPut: self ]
+		ifFalse: [
+			name := self class constantNameFor: self.
+			name notNil
+				ifTrue: [ aStream nextPutAll: self class name; space; nextPutAll: name ]
+				ifFalse: [
+					aStream 
+						nextPut: $(; nextPutAll: self class name; 
+						nextPutAll: ' value: '; print: value; nextPut: $) ] ].! !

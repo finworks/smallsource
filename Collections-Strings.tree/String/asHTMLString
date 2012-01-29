@@ -1,0 +1,7 @@
+
+!String methodsFor: 'converting' stamp: 'StephaneDucasse 2/20/2010 20:47'!
+asHTMLString
+	"substitute the < & > into HTML compliant elements"
+	"'<a>' asHTMLString"
+	^ self species streamContents: [:s | self do: [:c | s nextPutAll: c asHTMLString]]
+! !

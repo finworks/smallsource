@@ -1,0 +1,7 @@
+
+!OrderedCollection methodsFor: 'removing' stamp: 'ar 5/22/2000 12:19'!
+removeAt: index
+	| removed |
+	removed := self at: index.
+	self removeIndex: index + firstIndex - 1.
+	^removed! !

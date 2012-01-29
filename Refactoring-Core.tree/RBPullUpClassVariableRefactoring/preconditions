@@ -1,0 +1,4 @@
+
+!RBPullUpClassVariableRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	^(RBCondition isMetaclass: class) not! !

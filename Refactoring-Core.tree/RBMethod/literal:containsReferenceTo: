@@ -1,0 +1,8 @@
+
+!RBMethod methodsFor: 'private' stamp: 'lr 1/3/2010 11:47'!
+literal: anObject containsReferenceTo: aSymbol
+	anObject = aSymbol
+		ifTrue: [ ^ true ].
+	anObject class = Array
+		ifFalse: [ ^ false ].
+	^ anObject anySatisfy: [ :each | self literal: each containsReferenceTo: aSymbol ]! !

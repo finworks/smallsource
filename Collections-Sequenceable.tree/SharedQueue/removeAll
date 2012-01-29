@@ -1,0 +1,5 @@
+
+!SharedQueue methodsFor: 'accessing' stamp: 'StephaneDucasse 10/19/2010 14:01'!
+removeAll
+       monitor critical: [
+		items removeAll ].! !

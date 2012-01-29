@@ -1,0 +1,7 @@
+
+!SparseLargeTable methodsFor: 'accessing' stamp: 'yo 12/1/2003 15:58'!
+at: index
+
+	self pvtCheckIndex: index.
+	^self noCheckAt: index.
+! !

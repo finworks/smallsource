@@ -1,0 +1,5 @@
+
+!String methodsFor: 'translating' stamp: 'HilaireFernandes 5/6/2010 21:54'!
+translatedTo: localeID 
+	"answer the receiver translated to the given locale id"
+	^ NaturalLanguageTranslator translate: self toLocale: localeID! !

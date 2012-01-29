@@ -1,0 +1,4 @@
+
+!RBClassRefactoring class methodsFor: 'instance creation' stamp: ''!
+className: aName
+	^self new className: aName! !

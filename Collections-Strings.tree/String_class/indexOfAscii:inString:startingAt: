@@ -1,0 +1,11 @@
+
+!String class methodsFor: 'primitives' stamp: 'StephaneDucasse 9/18/2010 21:29'!
+indexOfAscii: anInteger inString: aString startingAt: start
+
+	| index endIndex |
+	endIndex := aString size.
+	index := start - 1.
+	[ (index := index + 1) <= endIndex ] whileTrue: [
+		(aString basicAt: index) = anInteger ifTrue: [ ^index ] ].
+	^ 0
+! !

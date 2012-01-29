@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'printing' stamp: 'StephaneDucasse 7/31/2010 19:45'!
+hex
+	"return an headecimal representation of the receiver in the form 16rXX.."
+	^value hex! !

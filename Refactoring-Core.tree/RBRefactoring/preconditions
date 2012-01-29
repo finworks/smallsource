@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	self subclassResponsibility! !

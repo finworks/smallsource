@@ -1,0 +1,6 @@
+
+!RBConjunctiveCondition methodsFor: 'private' stamp: ''!
+errorStringFor: aBoolean 
+	^aBoolean
+		ifTrue: [self neitherFailed]
+		ifFalse: [self perform: failed]! !

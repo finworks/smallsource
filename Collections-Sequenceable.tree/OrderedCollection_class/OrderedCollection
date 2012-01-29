@@ -1,0 +1,4 @@
+
+OrderedCollection class
+	uses: TSortable classTrait
+	instanceVariableNames: ''!

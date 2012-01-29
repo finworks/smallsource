@@ -1,0 +1,9 @@
+
+!Array methodsFor: 'comparing' stamp: 'ajh 2/2/2002 15:03'!
+literalEqual: other
+
+	self class == other class ifFalse: [^ false].
+	self size = other size ifFalse: [^ false].
+	self with: other do: [:e1 :e2 |
+		(e1 literalEqual: e2) ifFalse: [^ false]].
+	^ true! !

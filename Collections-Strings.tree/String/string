@@ -1,0 +1,4 @@
+
+!String methodsFor: 'accessing' stamp: 'md 5/26/2005 13:35'!
+string
+	^self! !

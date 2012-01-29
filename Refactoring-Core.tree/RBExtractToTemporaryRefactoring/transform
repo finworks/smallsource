@@ -1,0 +1,6 @@
+
+!RBExtractToTemporaryRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		insertTemporary;
+		compileNewMethod! !

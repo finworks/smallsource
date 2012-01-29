@@ -1,0 +1,4 @@
+
+!RBRemoveParameterRefactoring class methodsFor: 'instance creation' stamp: ''!
+removeParameter: aString in: aClass selector: aSelector
+	^self new removeParameter: aString in: aClass selector: aSelector! !

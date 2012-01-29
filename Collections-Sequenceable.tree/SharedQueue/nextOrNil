@@ -1,0 +1,5 @@
+
+!SharedQueue methodsFor: 'accessing' stamp: 'ls 6/25/2005 14:00'!
+nextOrNil
+	^monitor critical: [
+		items isEmpty ifTrue: [ nil ] ifFalse: [ items removeFirst ] ]! !

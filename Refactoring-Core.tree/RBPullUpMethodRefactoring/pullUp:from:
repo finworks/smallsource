@@ -1,0 +1,6 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'initialize-release' stamp: 'lr 7/17/2010 23:23'!
+pullUp: selectorCollection from: aClass 
+	class := self classObjectFor: aClass.
+	selectors := selectorCollection.
+	removeDuplicates := false! !

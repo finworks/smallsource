@@ -1,0 +1,9 @@
+
+!SparseLargeTable methodsFor: 'private' stamp: 'yo 12/1/2003 15:59'!
+similarInstance: newSize
+
+	^self class
+		new: newSize 
+		chunkSize: self chunkSize 
+		arrayClass: self arrayClass
+! !

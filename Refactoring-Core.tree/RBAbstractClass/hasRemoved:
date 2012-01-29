@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'testing' stamp: ''!
+hasRemoved: aSelector 
+	^removedMethods notNil and: [removedMethods includes: aSelector]! !

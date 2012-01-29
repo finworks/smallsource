@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'requests' stamp: ''!
+requestSelfArgumentName
+	^(self options at: #selfArgumentName) value: self! !

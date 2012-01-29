@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'testing' stamp: 'StephaneDucasse 3/28/2010 21:06'!
+endsWithAnyOf: aCollection
+	"Return true if the receiver ends with any of the elements in aCollection."
+	^aCollection anySatisfy:[:suffix| self endsWith: suffix]! !

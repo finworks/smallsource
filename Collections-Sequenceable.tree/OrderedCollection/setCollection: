@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'private' stamp: 'di 11/14/97 12:54'!
+setCollection: anArray
+	array := anArray.
+	self reset! !

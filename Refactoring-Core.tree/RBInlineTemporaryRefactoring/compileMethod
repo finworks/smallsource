@@ -1,0 +1,4 @@
+
+!RBInlineTemporaryRefactoring methodsFor: 'transforming' stamp: ''!
+compileMethod
+	class compileTree: sourceTree! !

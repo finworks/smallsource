@@ -1,0 +1,8 @@
+
+!Symbol methodsFor: 'printing' stamp: 'BenjaminVanRyseghem 11/24/2010 14:43'!
+storeOn: aStream 
+
+	aStream nextPut: $#.
+	(self isLiteralSymbol)
+		ifTrue: [aStream nextPutAll: self]
+		ifFalse: [super storeOn: aStream]! !

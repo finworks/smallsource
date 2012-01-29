@@ -1,0 +1,6 @@
+
+!Heap methodsFor: 'copying' stamp: 'nice 8/21/2010 15:53'!
+copyEmpty
+	"Answer a copy of the receiver without any of the receiver's elements."
+
+	^self class sortBlock: sortBlock! !

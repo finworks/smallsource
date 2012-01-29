@@ -1,0 +1,5 @@
+
+!Heap methodsFor: 'growing' stamp: 'ar 7/1/1999 04:18'!
+trim
+	"Remove any empty slots in the receiver."
+	self growTo: self size.! !

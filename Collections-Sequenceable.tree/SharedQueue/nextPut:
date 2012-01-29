@@ -1,0 +1,8 @@
+
+!SharedQueue methodsFor: 'accessing' stamp: 'StephaneDucasse 10/19/2010 14:00'!
+nextPut: anObject
+	monitor critical: [
+		items addLast: anObject.
+		monitor signal].
+	^ anObject
+! !

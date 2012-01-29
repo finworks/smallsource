@@ -1,0 +1,9 @@
+
+!String class methodsFor: 'instance creation' stamp: 'SheridanMahoney 11/17/2009 13:27'!
+new: sizeRequested 
+	"Answer an instance of this class with the number of indexable
+	variables specified by the argument, sizeRequested."
+	
+	self == String 
+		ifTrue:[^ByteString new: sizeRequested]
+		ifFalse:[^self basicNew: sizeRequested].! !

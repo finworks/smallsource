@@ -1,0 +1,5 @@
+
+!RBAbstractClass methodsFor: 'method accessing' stamp: 'md 1/17/2006 14:17'!
+bindingOf: aString 
+	^self realClass classPool associationAt: aString asSymbol
+		ifAbsent: [self realClass classPool associationAt: aString asString ifAbsent: [nil]]! !

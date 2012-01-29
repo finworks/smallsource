@@ -1,0 +1,4 @@
+
+!WideSymbol class methodsFor: 'initialization' stamp: 'ar 4/10/2005 23:55'!
+initialize
+	Smalltalk removeFromShutDownList: self. "@@@ Remove this later @@@"! !

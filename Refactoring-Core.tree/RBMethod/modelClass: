@@ -1,0 +1,4 @@
+
+!RBMethod methodsFor: 'accessing' stamp: ''!
+modelClass: aRBClass
+	class := aRBClass! !

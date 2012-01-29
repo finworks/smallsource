@@ -1,0 +1,7 @@
+
+!RBRemoveClassRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBSmalltalk classNames: aClassNameCollection 
+	^(self new)
+		model: aRBSmalltalk;
+		classNames: aClassNameCollection;
+		yourself! !

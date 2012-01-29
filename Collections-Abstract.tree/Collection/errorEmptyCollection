@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'private' stamp: 'SvenVanCaekenberghe 4/18/2011 14:59'!
+errorEmptyCollection
+	"Signal a CollectionIsEmpty exception"
+
+	CollectionIsEmpty signalWith: self! !

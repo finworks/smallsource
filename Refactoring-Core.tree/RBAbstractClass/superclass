@@ -1,0 +1,6 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+superclass
+	^superclass == LookupSuperclass 
+		ifTrue: [model classFor: self realClass superclass]
+		ifFalse: [superclass]! !

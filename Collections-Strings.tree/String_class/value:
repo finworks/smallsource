@@ -1,0 +1,6 @@
+
+!String class methodsFor: 'instance creation' stamp: 'yo 8/28/2002 13:29'!
+value: anInteger
+
+	^ self with: (Character value: anInteger).
+! !

@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: ''!
+removeInstanceVariable: aString from: aRBClass 
+	^changes removeInstanceVariable: aString from: aRBClass! !

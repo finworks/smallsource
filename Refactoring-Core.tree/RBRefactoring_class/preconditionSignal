@@ -1,0 +1,4 @@
+
+!RBRefactoring class methodsFor: 'accessing signal' stamp: 'lr 10/5/2010 16:13'!
+preconditionSignal
+	^ RBRefactoringError , RBRefactoringWarning! !

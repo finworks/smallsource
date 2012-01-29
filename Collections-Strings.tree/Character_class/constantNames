@@ -1,0 +1,8 @@
+
+!Character class methodsFor: 'private' stamp: 'gvc 6/21/2007 11:52'!
+constantNames
+	"Added the rest of them!!"
+	
+	^#(backspace cr delete escape lf newPage space tab
+		arrowDown arrowLeft arrowRight arrowUp
+		enter end home insert nbsp pageDown pageUp).! !

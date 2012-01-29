@@ -1,0 +1,6 @@
+
+!RBCreateAccessorsForVariableRefactoring methodsFor: 'private-accessing' stamp: 'lr 10/26/2009 22:09'!
+definingClass
+	^ classVariable 
+		ifTrue: [ class theMetaClass ]
+		ifFalse: [ class ]! !

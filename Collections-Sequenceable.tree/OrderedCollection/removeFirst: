@@ -1,0 +1,13 @@
+
+!OrderedCollection methodsFor: 'removing' stamp: 'cmm 10/25/2010 22:26'!
+removeFirst: n 
+	"Remove first n object into an array"
+	| list |
+	list := self class arrayType new: n.
+	1
+		to: n
+		do:
+			[ : i | list
+				at: i
+				put: self removeFirst ].
+	^ list! !

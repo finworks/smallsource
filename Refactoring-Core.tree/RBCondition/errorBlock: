@@ -1,0 +1,4 @@
+
+!RBCondition methodsFor: 'initialize-release' stamp: ''!
+errorBlock: anObject
+	errorBlock := anObject! !

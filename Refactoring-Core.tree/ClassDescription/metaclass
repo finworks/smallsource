@@ -1,0 +1,5 @@
+
+!ClassDescription methodsFor: '*refactoring-core-deprecated' stamp: 'lr 10/31/2009 17:30'!
+metaclass
+	self deprecated: 'Use aClass>>#theMetaClass instead'.
+	^ self theMetaClass! !

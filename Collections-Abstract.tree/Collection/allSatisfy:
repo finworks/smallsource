@@ -1,0 +1,9 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'sma 4/30/2000 11:17'!
+allSatisfy: aBlock
+	"Evaluate aBlock with the elements of the receiver.
+	If aBlock returns false for any element return false.
+	Otherwise return true."
+
+	self do: [:each | (aBlock value: each) ifFalse: [^ false]].
+	^ true! !

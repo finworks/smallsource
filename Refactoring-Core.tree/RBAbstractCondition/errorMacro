@@ -1,0 +1,6 @@
+
+!RBAbstractCondition methodsFor: 'private' stamp: ''!
+errorMacro
+	^errorMacro isNil
+		ifTrue: ['unknown']
+		ifFalse: [errorMacro]! !

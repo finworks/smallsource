@@ -1,0 +1,6 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'TristanBourgois 4/30/2010 16:13'!
+initialize: n
+	"Initialize array to an array size of n"
+	array := Array new: n.
+	tally := 0! !

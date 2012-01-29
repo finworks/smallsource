@@ -1,0 +1,4 @@
+
+!RBChildrenToSiblingsRefactoring methodsFor: 'transforming' stamp: ''!
+reparentSubclasses
+	self model reparentClasses: subclasses to: self abstractSuperclass! !

@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'accessing' stamp: ''!
+changes
+	^self model changes! !

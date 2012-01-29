@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'converting' stamp: ''!
+asInteger
+	"Answer the value of the receiver."
+
+	^value! !

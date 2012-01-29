@@ -1,0 +1,5 @@
+
+!RBNegationCondition methodsFor: 'printing' stamp: ''!
+printOn: aStream 
+	aStream nextPutAll: 'NOT ';
+		print: condition! !

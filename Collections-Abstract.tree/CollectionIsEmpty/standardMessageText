@@ -1,0 +1,8 @@
+
+!CollectionIsEmpty methodsFor: 'private' stamp: 'SvenVanCaekenberghe 4/18/2011 14:54'!
+standardMessageText
+	"Generate a standard textual description"
+	
+	^ String streamContents: [ :stream |
+		stream print: self collection.
+		stream << ' is empty' ]! !

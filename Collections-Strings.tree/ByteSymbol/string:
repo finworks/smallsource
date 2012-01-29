@@ -1,0 +1,5 @@
+
+!ByteSymbol methodsFor: 'private' stamp: 'ar 4/10/2005 23:02'!
+string: aString
+	1 to: aString size do: [:j | self pvtAt: j put: (aString at: j)].
+	^self! !

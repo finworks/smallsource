@@ -1,0 +1,6 @@
+
+!Symbol class methodsFor: 'private' stamp: 'RAA 5/29/2001 09:04'!
+shutDown: aboutToQuit
+
+	SymbolTable addAll: NewSymbols.
+	NewSymbols := WeakSet new.! !

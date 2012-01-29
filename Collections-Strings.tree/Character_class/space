@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'accessing untypeable characters' stamp: ''!
+space
+	"Answer the Character representing a space."
+
+	^self value: 32! !

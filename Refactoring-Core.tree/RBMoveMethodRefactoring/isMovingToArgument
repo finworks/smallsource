@@ -1,0 +1,4 @@
+
+!RBMoveMethodRefactoring methodsFor: 'testing' stamp: ''!
+isMovingToArgument
+	^(parseTree arguments collect: [:each | each name]) includes: variable! !

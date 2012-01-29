@@ -1,0 +1,5 @@
+
+!Array class methodsFor: 'instance creation' stamp: 'StephaneDucasse 2/13/2010 12:18'!
+empty
+	"A canonicalized empty Array instance."
+	^ #()! !

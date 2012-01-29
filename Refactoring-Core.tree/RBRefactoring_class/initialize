@@ -1,0 +1,4 @@
+
+!RBRefactoring class methodsFor: 'initialization' stamp: 'lr 1/18/2010 21:02'!
+initialize
+	self initializeRefactoringOptions! !

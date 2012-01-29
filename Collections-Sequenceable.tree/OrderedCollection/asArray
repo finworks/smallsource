@@ -1,0 +1,4 @@
+
+!OrderedCollection methodsFor: 'converting' stamp: 'stephane.ducasse 8/8/2009 10:48'!
+asArray
+	^ (Array new: self size) replaceFrom: 1 to: self size with: array startingAt: firstIndex.! !

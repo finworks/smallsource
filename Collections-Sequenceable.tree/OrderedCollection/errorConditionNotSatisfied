@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'private' stamp: ''!
+errorConditionNotSatisfied
+
+	self error: 'no element satisfies condition'! !

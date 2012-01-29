@@ -1,0 +1,9 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: 'lr 10/26/2009 22:09'!
+changeClass: aRBClass 
+	changedClasses 
+		at: aRBClass name
+		put: (Array 
+				with: aRBClass theNonMetaClass
+				with: aRBClass theMetaClass).
+	self flushCaches! !

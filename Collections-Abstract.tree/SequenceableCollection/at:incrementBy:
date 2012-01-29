@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'raok 11/22/2002 12:34'!
+at: index incrementBy: value
+	^self at: index put: (self at: index) + value! !

@@ -1,0 +1,6 @@
+
+!OrderedCollection methodsFor: 'accessing' stamp: 'sma 5/12/2000 11:39'!
+size
+	"Answer how many elements the receiver contains."
+
+	^ lastIndex - firstIndex + 1! !

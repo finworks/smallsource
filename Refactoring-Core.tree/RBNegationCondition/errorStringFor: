@@ -1,0 +1,4 @@
+
+!RBNegationCondition methodsFor: 'private' stamp: ''!
+errorStringFor: aBoolean 
+	^condition errorStringFor: aBoolean not! !

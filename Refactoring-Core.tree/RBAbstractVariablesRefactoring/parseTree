@@ -1,0 +1,4 @@
+
+!RBAbstractVariablesRefactoring methodsFor: 'accessing' stamp: ''!
+parseTree
+	^tree! !

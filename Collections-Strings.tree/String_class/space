@@ -1,0 +1,7 @@
+
+!String class methodsFor: 'instance creation' stamp: 'dc 2/12/2007 10:47'!
+space
+	"Answer a string containing a single space character."
+
+	^ self with: Character space
+! !

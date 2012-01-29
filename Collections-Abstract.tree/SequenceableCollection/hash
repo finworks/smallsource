@@ -1,0 +1,8 @@
+
+!SequenceableCollection methodsFor: 'comparing' stamp: 'SqR 8/3/2000 13:39'!
+hash
+	| hash |
+
+	hash := self species hash.
+	1 to: self size do: [:i | hash := (hash + (self at: i) hash) hashMultiply].
+	^hash! !

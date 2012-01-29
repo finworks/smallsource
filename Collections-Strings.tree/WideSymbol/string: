@@ -1,0 +1,5 @@
+
+!WideSymbol methodsFor: 'private' stamp: 'ar 4/10/2005 23:58'!
+string: aString
+	1 to: aString size do: [:j | self pvtAt: j put: (aString at: j) asInteger].
+	^self! !

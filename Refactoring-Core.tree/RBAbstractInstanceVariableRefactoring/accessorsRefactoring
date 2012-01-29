@@ -1,0 +1,11 @@
+
+!RBAbstractInstanceVariableRefactoring methodsFor: 'private-accessing' stamp: 'lr 9/8/2011 20:11'!
+accessorsRefactoring
+	^accessorsRefactoring isNil 
+		ifTrue: 
+			[accessorsRefactoring := RBCreateAccessorsForVariableRefactoring 
+						model: self model
+						variable: variableName
+						class: class
+						classVariable: false]
+		ifFalse: [accessorsRefactoring]! !

@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'copying' stamp: 'tk 8/19/1998 16:05'!
+veryDeepCopyWith: deepCopier
+	"Return self.  I am immutable in the Morphic world.  Do not record me."! !

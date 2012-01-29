@@ -1,0 +1,15 @@
+
+!RBAbstractVariablesRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+computeVariablesToAbstract
+	| searcher |
+	instVarReaders := Set new.
+	instVarWriters := Set new.
+	classVarReaders := Set new.
+	classVarWriters := Set new.
+	searcher := RBParseTreeSearcher new.
+	searcher
+		matches: '`var := ``@anything'
+			do: [:aNode :answer | self processAssignmentNode: aNode];
+		matches: '`var' do: [:aNode :answer | self processReferenceNode: aNode].
+	searcher executeTree: tree.
+	self removeDefinedClassVariables! !

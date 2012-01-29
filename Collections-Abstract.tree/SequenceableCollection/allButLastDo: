@@ -1,0 +1,6 @@
+
+!SequenceableCollection methodsFor: 'enumerating' stamp: 'ajh 8/6/2002 15:01'!
+allButLastDo: block
+
+	1 to: self size - 1 do:
+		[:index | block value: (self at: index)]! !

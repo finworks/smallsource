@@ -1,0 +1,10 @@
+
+!LinkedList methodsFor: 'enumerating' stamp: 'HenrikSperreJohansen 10/19/2009 11:03'!
+linksDo: aBlock
+
+	| aLink |
+	aLink := firstLink.
+	[aLink == nil ] whileFalse:
+		[
+		aBlock value: aLink.
+		aLink := aLink nextLink]! !

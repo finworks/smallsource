@@ -1,0 +1,6 @@
+
+!HashedCollection methodsFor: 'accessing' stamp: 'TristanBourgois 4/30/2010 16:13'!
+capacity
+	"Answer the current capacity of the receiver."
+
+	^ array size! !

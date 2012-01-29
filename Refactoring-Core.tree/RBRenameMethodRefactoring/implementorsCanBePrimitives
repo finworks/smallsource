@@ -1,0 +1,4 @@
+
+!RBRenameMethodRefactoring methodsFor: 'testing' stamp: ''!
+implementorsCanBePrimitives
+	^self hasPermutedArguments not! !

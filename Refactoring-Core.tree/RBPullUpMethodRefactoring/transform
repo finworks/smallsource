@@ -1,0 +1,8 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'transforming' stamp: 'lr 7/17/2010 23:24'!
+transform
+	self
+		copyDownMethods;
+		pullUpMethods;
+		removePulledUpMethods;
+		removeDuplicateMethods! !

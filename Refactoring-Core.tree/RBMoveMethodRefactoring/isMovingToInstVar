@@ -1,0 +1,5 @@
+
+!RBMoveMethodRefactoring methodsFor: 'testing' stamp: ''!
+isMovingToInstVar
+	^self isMovingToArgument not 
+		and: [(class whoDefinesInstanceVariable: variable) notNil]! !

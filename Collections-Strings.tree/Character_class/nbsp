@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'accessing untypeable characters' stamp: 'wiz 4/9/2006 20:30'!
+nbsp
+	"non-breakable space. Latin1 encoding common usage."
+
+	^ Character value: 160! !

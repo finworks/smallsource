@@ -1,0 +1,5 @@
+
+!Heap methodsFor: 'testing' stamp: 'ar 9/10/1999 13:03'!
+isEmpty
+	"Answer whether the receiver contains any elements."
+	^tally = 0! !

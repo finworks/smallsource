@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'private' stamp: 'ar 4/9/2005 22:18'!
+setValue: newValue
+	value ifNotNil:[^self error:'Characters are immutable'].
+	value := newValue.! !

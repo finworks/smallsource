@@ -1,0 +1,4 @@
+
+!RBRefactoryTyper methodsFor: 'accessing' stamp: ''!
+typesFor: anInstVarName 
+	^variableTypes at: anInstVarName ifAbsent: [Set new]! !

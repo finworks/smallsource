@@ -1,0 +1,6 @@
+
+!String methodsFor: 'copying' stamp: 'AdrienBarreau 6/17/2010 10:10'!
+trimBoth
+	"Trim separators from both sides of the receiving string."
+	
+	^ self trimBoth: [ :char | char isSeparator ]! !

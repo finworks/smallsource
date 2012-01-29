@@ -1,0 +1,5 @@
+
+!ByteSymbol methodsFor: 'accessing' stamp: 'ar 4/10/2005 22:10'!
+byteAt: anInteger put: anObject 
+	"You cannot modify the receiver."
+	self errorNoModification! !

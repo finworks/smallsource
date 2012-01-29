@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'evaluating' stamp: 'HenrikSperreJohansen 2/18/2010 14:58'!
+cull: anObject 
+	^anObject perform: self.! !

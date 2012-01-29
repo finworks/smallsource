@@ -1,0 +1,8 @@
+
+!String methodsFor: 'testing' stamp: 'StephaneDucasse 6/11/2010 12:37'!
+isAllDigits
+	"whether the receiver is composed entirely of digits and has at least one digit"
+
+	self do: [:c | c isDigit ifFalse: [^ false]].
+	self ifEmpty: [^false].
+       ^ true! !

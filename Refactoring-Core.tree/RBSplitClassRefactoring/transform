@@ -1,0 +1,7 @@
+
+!RBSplitClassRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		createNewClass;
+		createReference;
+		abstractVariableReferences! !

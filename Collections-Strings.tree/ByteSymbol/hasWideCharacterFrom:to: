@@ -1,0 +1,5 @@
+
+!ByteSymbol methodsFor: 'testing' stamp: 'nice 11/9/2009 22:35'!
+hasWideCharacterFrom: start to: stop
+	"Always false because I only contains byte characters"
+	^false! !

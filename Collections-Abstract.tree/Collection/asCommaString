@@ -1,0 +1,7 @@
+
+!Collection methodsFor: 'printing' stamp: 'gk 1/14/2005 08:19'!
+asCommaString
+	"Return collection printed as 'a, b, c' "
+
+	^String streamContents: [:s | self asStringOn: s delimiter: ', ']
+		! !

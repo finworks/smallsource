@@ -1,0 +1,12 @@
+
+!RBAbstractClass methodsFor: 'method accessing' stamp: 'lr 3/17/2010 18:42'!
+whichSelectorsReferToClassVariable: aString 
+	| selectors |
+	selectors := Set new.
+	newMethods isNil ifFalse: [
+		newMethods do: [ :each | 
+			(each refersToVariable: aString)
+				ifTrue: [ selectors add: each selector ] ] ].
+	self isDefined 
+		ifTrue: [ selectors addAll: (self existingMethodsThatReferToClassVariable: aString) ].
+	^ selectors! !

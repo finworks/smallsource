@@ -1,0 +1,7 @@
+
+!Array methodsFor: 'self evaluating' stamp: 'nice 11/1/2009 21:48'!
+printAsSelfEvaluatingFormOn: aStream
+
+	aStream nextPut: ${.
+	self do: [:el | el storeOn: aStream] separatedBy: [ aStream nextPutAll: '. '].
+	aStream nextPut: $}! !

@@ -1,0 +1,4 @@
+
+!SharedQueue class methodsFor: 'instance creation' stamp: 'ls 6/25/2005 13:53'!
+new
+	^self basicNew initialize! !

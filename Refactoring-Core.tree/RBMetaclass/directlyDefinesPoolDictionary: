@@ -1,0 +1,4 @@
+
+!RBMetaclass methodsFor: 'testing' stamp: 'lr 10/26/2009 22:08'!
+directlyDefinesPoolDictionary: aString 
+	^ self theNonMetaClass directlyDefinesPoolDictionary: aString! !

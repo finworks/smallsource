@@ -1,0 +1,5 @@
+
+!Collection methodsFor: 'private' stamp: ''!
+emptyCheck
+
+	self isEmpty ifTrue: [self errorEmptyCollection]! !

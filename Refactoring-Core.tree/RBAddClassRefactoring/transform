@@ -1,0 +1,9 @@
+
+!RBAddClassRefactoring methodsFor: 'transforming' stamp: 'bh 4/10/2001 14:25'!
+transform
+	(self model)
+		defineClass: ('<1p> subclass: #<2s> instanceVariableNames: '''' classVariableNames: '''' poolDictionaries: '''' category: <3p>' 
+					expandMacrosWith: superclass
+					with: className
+					with: category asString);
+		reparentClasses: subclasses to: (self model classNamed: className asSymbol)! !

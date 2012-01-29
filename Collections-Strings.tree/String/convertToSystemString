@@ -1,0 +1,5 @@
+
+!String methodsFor: 'converting' stamp: 'HenrikSperreJohansen 1/27/2010 18:07'!
+convertToSystemString
+
+	^LanguageEnvironment defaultSystemConverter convertToSystemString: self! !

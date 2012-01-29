@@ -1,0 +1,5 @@
+
+!Heap methodsFor: 'private' stamp: 'ar 9/10/1999 13:18'!
+setCollection: aCollection tally: newTally
+	array := aCollection.
+	tally := newTally.! !

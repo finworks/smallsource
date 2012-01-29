@@ -1,0 +1,16 @@
+
+!OrderedCollection methodsFor: 'enumerating' stamp: 'hfm 2/12/2009 13:30'!
+select: selectBlock thenCollect: collectBlock
+    " Utility method to improve readability.
+	Do not create the intermediate collection. "
+
+	| newCollection |
+
+    newCollection := self copyEmpty.
+    firstIndex to: lastIndex do:[:index |
+		| element |
+		element := array at: index.
+		( selectBlock value: element ) 
+			ifTrue:[ newCollection addLast: ( collectBlock value: element ) ]
+    ].
+    ^ newCollection! !

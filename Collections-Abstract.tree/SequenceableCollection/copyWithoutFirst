@@ -1,0 +1,7 @@
+
+!SequenceableCollection methodsFor: 'copying' stamp: 'sma 6/1/2000 15:38'!
+copyWithoutFirst
+	"Deprecatd. Return a copy of the receiver which doesn't include
+	the first element."
+
+	^ self allButFirst! !

@@ -1,0 +1,4 @@
+
+!Character methodsFor: 'copying' stamp: 'tk 1/7/1999 16:50'!
+veryDeepCopyWith: deepCopier
+	"Return self.  I can't be copied."! !

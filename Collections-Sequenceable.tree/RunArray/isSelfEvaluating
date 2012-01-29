@@ -1,0 +1,4 @@
+
+!RunArray methodsFor: 'self evaluating' stamp: 'nice 10/30/2009 20:29'!
+isSelfEvaluating
+	^ self class == RunArray and: [values isSelfEvaluating]! !

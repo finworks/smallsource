@@ -1,0 +1,7 @@
+
+!Heap methodsFor: 'accessing' stamp: 'stephane.ducasse 4/13/2009 21:05'!
+indexUpdateBlock: aBlockOrNil
+
+	indexUpdateBlock := aBlockOrNil.
+
+! !

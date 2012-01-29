@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'private' stamp: 'lr 10/5/2010 16:13'!
+refactoringWarning: aString 
+	^ RBRefactoringWarning signal: aString! !

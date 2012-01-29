@@ -1,0 +1,4 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	^RBCondition canUnderstand: selector in: class! !

@@ -1,0 +1,4 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'HenrikSperreJohansen 9/1/2010 23:21'!
+rehash
+	self growTo: self capacity! !

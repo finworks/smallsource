@@ -1,0 +1,7 @@
+
+!RBConjunctiveCondition methodsFor: 'private' stamp: 'lr 11/2/2009 23:38'!
+errorBlockFor: aBoolean 
+	^aBoolean
+		ifTrue: [nil]
+		ifFalse: 
+			[failed = #leftFailed ifTrue: [left errorBlock] ifFalse: [right errorBlock]]! !

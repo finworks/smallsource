@@ -1,0 +1,9 @@
+
+!Interval methodsFor: 'printing' stamp: 'CamilloBruni 4/11/2011 15:08'!
+storeOn: aStream 
+	aStream nextPut: $(;
+	 	store: start;
+	 	nextPutAll: ' to: ';
+	 	store: stop.
+	step ~= 1 ifTrue: [aStream nextPutAll: ' by: '; store: step].
+	aStream nextPut: $)! !

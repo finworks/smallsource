@@ -1,0 +1,9 @@
+
+!RBSplitClassRefactoring methodsFor: 'private-transforming' stamp: 'lr 9/8/2011 20:11'!
+addInstanceVariables
+	instanceVariables do: 
+			[:each | 
+			self performComponentRefactoring: (RBAddInstanceVariableRefactoring 
+						model: self model
+						variable: each
+						class: newClass)]! !

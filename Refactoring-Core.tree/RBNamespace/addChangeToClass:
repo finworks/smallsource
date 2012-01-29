@@ -1,0 +1,8 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: 'lr 10/26/2009 22:09'!
+addChangeToClass: aRBClass 
+	^ changedClasses 
+		at: aRBClass name
+		put: (Array 
+				with: aRBClass theNonMetaClass
+				with: aRBClass theMetaClass)! !

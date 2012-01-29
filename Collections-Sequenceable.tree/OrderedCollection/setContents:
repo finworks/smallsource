@@ -1,0 +1,6 @@
+
+!OrderedCollection methodsFor: 'private' stamp: 'apb 10/15/2000 18:10'!
+setContents: anArray
+	array := anArray.
+	firstIndex := 1.
+	lastIndex := array size.! !

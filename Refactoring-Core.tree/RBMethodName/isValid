@@ -1,0 +1,5 @@
+
+!RBMethodName methodsFor: 'testing' stamp: 'lr 6/15/2010 10:26'!
+isValid
+	^ (RBCondition checkMethodName: self selector in: self class) 
+		and: [ self selector numArgs = self arguments size ]! !

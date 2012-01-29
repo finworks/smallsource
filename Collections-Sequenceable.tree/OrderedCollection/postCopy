@@ -1,0 +1,4 @@
+
+!OrderedCollection methodsFor: 'copying' stamp: 'nice 10/5/2009 08:50'!
+postCopy
+	array := array copy! !

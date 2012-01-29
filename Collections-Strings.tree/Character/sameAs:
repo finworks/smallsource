@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'comparing' stamp: 'md 8/2/2005 18:21'!
+sameAs: aCharacter 
+	"Answer whether the receiver is equal to aCharacter, ignoring case"
+	^ (self asLowercase = aCharacter asLowercase)	! !

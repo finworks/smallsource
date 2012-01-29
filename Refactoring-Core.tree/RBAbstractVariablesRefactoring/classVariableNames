@@ -1,0 +1,6 @@
+
+!RBAbstractVariablesRefactoring methodsFor: 'transforming' stamp: 'lr 10/26/2009 22:08'!
+classVariableNames
+	| nonMetaClass |
+	nonMetaClass := fromClass theNonMetaClass.
+	^ (nonMetaClass allClassVariableNames collect: [ :each | each asString ]) asSet! !

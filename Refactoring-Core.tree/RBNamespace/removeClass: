@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'changes' stamp: ''!
+removeClass: aRBClass 
+	self removeClassNamed: aRBClass name! !

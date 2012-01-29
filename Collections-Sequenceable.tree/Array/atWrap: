@@ -1,0 +1,6 @@
+
+!Array methodsFor: 'accessing' stamp: 'ar 8/26/2001 22:02'!
+atWrap: index 
+	"Optimized to go through the primitive if possible"
+	<primitive: 60>
+	^ self at: index - 1 \\ self size + 1! !

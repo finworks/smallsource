@@ -1,0 +1,4 @@
+
+!Interval methodsFor: 'self evaluating' stamp: 'sd 7/31/2005 22:03'!
+isSelfEvaluating
+	^ self class == Interval! !

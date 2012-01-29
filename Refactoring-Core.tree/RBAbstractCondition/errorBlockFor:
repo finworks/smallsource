@@ -1,0 +1,4 @@
+
+!RBAbstractCondition methodsFor: 'private' stamp: ''!
+errorBlockFor: aBoolean 
+	^nil! !

@@ -1,0 +1,7 @@
+
+!RBChangeMethodNameRefactoring methodsFor: 'transforming' stamp: 'lr 12/23/2009 19:59'!
+removeRenamedImplementors
+	oldSelector = newSelector
+		ifTrue: [ ^ self ].
+	self implementors 
+		do: [ :each | each removeMethod: oldSelector ]! !

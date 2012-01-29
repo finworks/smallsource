@@ -1,0 +1,4 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'transforming' stamp: 'lr 7/17/2010 23:24'!
+removePulledUpMethods
+	selectors do: [:each | class removeMethod: each]! !

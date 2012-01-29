@@ -1,0 +1,4 @@
+
+!ArrayedCollection methodsFor: 'filter streaming' stamp: 'sma 5/12/2000 14:20'!
+flattenOnStream: aStream 
+	aStream writeArrayedCollection: self! !

@@ -1,0 +1,9 @@
+
+!RBMoveMethodRefactoring methodsFor: 'testing' stamp: 'lr 11/2/2009 00:14'!
+hasSelfReferences
+	| searcher |
+	searcher := RBParseTreeSearcher new.
+	searcher matches: 'self' do: [:aNode :answer | true].
+	self hasOnlySelfReturns 
+		ifTrue: [searcher matches: '^self' do: [:aNode :answer | answer]].
+	^searcher executeTree: parseTree initialAnswer: false! !

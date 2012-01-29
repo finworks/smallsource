@@ -1,0 +1,7 @@
+
+!SequenceableCollection class methodsFor: 'instance creation' stamp: 'MarcusDenker 12/7/2009 14:55'!
+ofSize: n
+	"Create a new collection of size n with nil as its elements.
+	This method exists because OrderedCollection new: n creates an
+	empty collection,  not one of size n."
+	^ self new: n! !

@@ -1,0 +1,7 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+subStrings
+	"Answer an array of the substrings that compose the receiver."
+	#Collectn.
+	"Added 2000/04/08 For ANSI <readableString> protocol."
+	^ self substrings! !

@@ -1,0 +1,4 @@
+
+!OrderedCollection class methodsFor: 'instance creation' stamp: 'sma 5/12/2000 17:41'!
+new
+	^ self new: 10! !

@@ -1,0 +1,6 @@
+
+!OrderedCollection methodsFor: 'adding' stamp: 'sma 5/12/2000 11:26'!
+addAll: aCollection 
+	"Add each element of aCollection at my end. Answer	aCollection."
+
+	^ self addAllLast: aCollection! !

@@ -1,0 +1,10 @@
+
+!SequenceableCollection class methodsFor: 'stream creation' stamp: 'ul 9/12/2009 17:29'!
+new: newSize streamContents: blockWithArg
+
+	| stream |
+	stream := WriteStream on: (self new: newSize).
+	blockWithArg value: stream.
+	stream position = newSize
+		ifTrue: [ ^stream originalContents ]
+		ifFalse: [ ^stream contents ]! !

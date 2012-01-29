@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'private' stamp: 'sma 5/12/2000 13:57'!
+checkedAt: index
+	index > self size ifTrue: [self error: 'not enough elements'].
+	^ self at: index! !

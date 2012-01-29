@@ -1,0 +1,9 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'HenrikSperreJohansen 9/1/2010 22:21'!
+growTo: anInteger
+	"Grow the elements array and reinsert the old elements"
+	
+	| oldElements |
+	oldElements := array.
+	array := Array new: anInteger.
+	self noCheckNoGrowFillFrom: oldElements! !

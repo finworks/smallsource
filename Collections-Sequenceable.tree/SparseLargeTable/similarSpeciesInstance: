@@ -1,0 +1,6 @@
+
+!SparseLargeTable methodsFor: 'private' stamp: 'yo 12/1/2003 16:00'!
+similarSpeciesInstance: newSize
+
+	^self similarInstance: newSize
+! !

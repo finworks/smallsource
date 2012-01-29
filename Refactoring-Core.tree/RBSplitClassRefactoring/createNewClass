@@ -1,0 +1,6 @@
+
+!RBSplitClassRefactoring methodsFor: 'transforming' stamp: ''!
+createNewClass
+	self
+		addClass;
+		addInstanceVariables! !

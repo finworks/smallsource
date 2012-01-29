@@ -1,0 +1,6 @@
+
+!RunArray methodsFor: 'private' stamp: ''!
+values
+	"Answer the values in the receiver."
+
+	^values! !

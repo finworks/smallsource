@@ -1,0 +1,7 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'ar 4/10/2005 23:04'!
+internCharacter: aCharacter
+	aCharacter asciiValue > 256 ifTrue:[^self intern: aCharacter asString].
+	OneCharacterSymbols ifNil: [^self intern: aCharacter asString].
+	^OneCharacterSymbols at: aCharacter asciiValue + 1
+! !

@@ -1,0 +1,4 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'preconditions' stamp: ''!
+checkInstVars
+	selectors do: [:each | self checkInstVarsFor: each]! !

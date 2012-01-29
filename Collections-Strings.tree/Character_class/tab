@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'accessing untypeable characters' stamp: ''!
+tab
+	"Answer the Character representing a tab."
+
+	^self value: 9! !

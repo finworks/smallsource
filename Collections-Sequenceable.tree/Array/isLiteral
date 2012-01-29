@@ -1,0 +1,4 @@
+
+!Array methodsFor: 'testing' stamp: 'nice 11/2/2009 19:06'!
+isLiteral
+	^self class == Array and: [self allSatisfy: [:each | each isLiteral]]! !

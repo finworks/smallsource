@@ -1,0 +1,8 @@
+
+!Heap class methodsFor: 'instance creation' stamp: 'ar 9/10/1999 13:23'!
+withAll: aCollection
+	"Create a new heap with all the elements from aCollection"
+	^(self basicNew)
+		setCollection: aCollection asArray copy tally: aCollection size;
+		reSort;
+		yourself! !

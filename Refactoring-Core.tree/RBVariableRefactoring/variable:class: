@@ -1,0 +1,5 @@
+
+!RBVariableRefactoring methodsFor: 'initialize-release' stamp: ''!
+variable: aVarName class: aClass 
+	class := self classObjectFor: aClass.
+	variableName := aVarName! !

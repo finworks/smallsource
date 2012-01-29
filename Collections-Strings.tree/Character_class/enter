@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'accessing untypeable characters' stamp: ''!
+enter
+	"Answer the Character representing enter."
+
+	^self value: 3! !

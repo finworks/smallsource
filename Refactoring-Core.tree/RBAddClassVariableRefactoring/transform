@@ -1,0 +1,4 @@
+
+!RBAddClassVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	class addClassVariable: variableName! !

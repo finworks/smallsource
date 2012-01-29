@@ -1,0 +1,7 @@
+
+!Symbol class methodsFor: 'private' stamp: 'ar 9/27/2005 20:01'!
+rehash		"Symbol rehash"
+	"Rebuild the hash table, reclaiming unreferenced Symbols."
+
+	SymbolTable := WeakSet withAll: self allSubInstances.
+	NewSymbols := WeakSet new.! !

@@ -1,0 +1,6 @@
+
+!LinkedList methodsFor: 'adding' stamp: 'HenrikSperreJohansen 10/18/2009 14:58'!
+add: aLinkOrObject
+	"Add aLink to the end of the receiver's list. Answer aLink."
+
+	^self addLast: aLinkOrObject! !

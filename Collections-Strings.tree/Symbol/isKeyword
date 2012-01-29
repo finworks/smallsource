@@ -1,0 +1,6 @@
+
+!Symbol methodsFor: 'testing' stamp: 'StephaneDucasse 5/28/2011 13:47'!
+isKeyword
+	"Answer whether the receiver is a message keyword."
+
+	^ self precedence = 3! !

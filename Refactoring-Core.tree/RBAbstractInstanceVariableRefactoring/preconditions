@@ -1,0 +1,4 @@
+
+!RBAbstractInstanceVariableRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	^RBCondition directlyDefinesInstanceVariable: variableName in: class! !

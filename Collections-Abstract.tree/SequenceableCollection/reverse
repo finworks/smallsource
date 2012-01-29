@@ -1,0 +1,6 @@
+
+!SequenceableCollection methodsFor: 'converting' stamp: 'lr 5/13/2010 16:25'!
+reverse
+	"Answer a copy of the receiver with element order reversed, as expected by ANSI."
+
+	^ self reversed! !

@@ -1,0 +1,4 @@
+
+!RBRemoveMethodRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	selectors do: [:each | class removeMethod: each]! !

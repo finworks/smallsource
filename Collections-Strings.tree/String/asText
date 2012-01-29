@@ -1,0 +1,6 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+asText
+	"Answer a Text whose string is the receiver."
+
+	^Text fromString: self! !

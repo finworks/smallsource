@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'converting' stamp: 'sw 1/28/98 18:18'!
+capitalized
+	^ self asString capitalized asSymbol! !

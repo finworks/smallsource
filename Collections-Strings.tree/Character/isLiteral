@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'printing' stamp: ''!
+isLiteral
+
+	^true! !

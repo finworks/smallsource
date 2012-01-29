@@ -1,0 +1,8 @@
+
+!RBRenameTemporaryRefactoring class methodsFor: 'instance creation' stamp: ''!
+renameTemporaryFrom: anInterval to: newName in: aClass selector: aSelector 
+	^self new
+		class: aClass
+		selector: aSelector
+		interval: anInterval
+		newName: newName! !

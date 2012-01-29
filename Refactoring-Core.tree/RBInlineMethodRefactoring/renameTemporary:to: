@@ -1,0 +1,10 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+renameTemporary: oldName to: newName 
+	| rewriter |
+	rewriter := RBParseTreeRewriter new.
+	rewriter
+		replace: oldName with: newName;
+		replaceArgument: oldName with: newName.
+	(rewriter executeTree: inlineParseTree) 
+		ifTrue: [inlineParseTree := rewriter tree]! !

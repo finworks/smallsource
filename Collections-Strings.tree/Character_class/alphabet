@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'constants' stamp: 'rhi 9/8/2000 14:57'!
+alphabet
+	"($a to: $z) as: String"
+
+	^ 'abcdefghijklmnopqrstuvwxyz' copy! !

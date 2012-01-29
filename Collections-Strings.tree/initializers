@@ -1,0 +1,5 @@
+Character initialize!
+String initialize!
+ByteString initialize!
+Symbol initialize!
+WideSymbol initialize!

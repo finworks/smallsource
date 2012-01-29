@@ -1,0 +1,7 @@
+
+!Array class methodsFor: 'brace support' stamp: 'di 11/19/1999 08:16'!
+braceWithNone
+	"This method is used in compilation of brace constructs.
+	It MUST NOT be deleted or altered."
+
+	^ self new: 0! !

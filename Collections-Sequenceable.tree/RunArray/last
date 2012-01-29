@@ -1,0 +1,4 @@
+
+!RunArray methodsFor: 'accessing' stamp: 'ar 10/16/2001 18:56'!
+last
+	^values at: values size! !

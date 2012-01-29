@@ -1,0 +1,6 @@
+
+!WideString methodsFor: 'testing' stamp: 'yo 7/29/2003 14:10'!
+includesUnifiedCharacter
+
+	^ self isUnicodeStringWithCJK
+! !

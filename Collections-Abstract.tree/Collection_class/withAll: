@@ -1,0 +1,8 @@
+
+!Collection class methodsFor: 'instance creation' stamp: 'sma 5/6/2000 20:07'!
+withAll: aCollection
+	"Create a new collection containing all the elements from aCollection."
+
+	^ (self new: aCollection size)
+		addAll: aCollection;
+		yourself! !

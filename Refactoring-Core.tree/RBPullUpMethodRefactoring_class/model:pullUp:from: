@@ -1,0 +1,7 @@
+
+!RBPullUpMethodRefactoring class methodsFor: 'instance creation' stamp: 'lr 7/17/2010 23:23'!
+model: aRBSmalltalk pullUp: selectorCollection from: aClass 
+	^(self new)
+		model: aRBSmalltalk;
+		pullUp: selectorCollection from: aClass;
+		yourself! !

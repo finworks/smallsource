@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'method accessing' stamp: 'lr 11/1/2009 23:48'!
+compileTree: aRBMethodNode 
+	^ (self methodFor: aRBMethodNode selector) compileTree: aRBMethodNode! !

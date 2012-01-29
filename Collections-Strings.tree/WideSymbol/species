@@ -1,0 +1,6 @@
+
+!WideSymbol methodsFor: 'accessing' stamp: 'ar 4/12/2005 17:34'!
+species
+	"Answer the preferred class for reconstructing the receiver."
+	^WideString
+! !

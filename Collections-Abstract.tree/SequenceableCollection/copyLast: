@@ -1,0 +1,6 @@
+
+!SequenceableCollection methodsFor: 'copying' stamp: 'sma 6/1/2000 16:06'!
+copyLast: num
+	"Deprecated. Use #last:"
+
+	^ self last: num! !

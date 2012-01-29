@@ -1,0 +1,4 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'transforming' stamp: 'lr 7/17/2010 23:24'!
+pullUpMethods
+	selectors do: [:each | self pullUp: each]! !

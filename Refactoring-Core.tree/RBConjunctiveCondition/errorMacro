@@ -1,0 +1,6 @@
+
+!RBConjunctiveCondition methodsFor: 'private' stamp: ''!
+errorMacro
+	^errorMacro isNil
+		ifTrue: [self longMacro]
+		ifFalse: [super errorMacro]! !

@@ -1,0 +1,5 @@
+
+!Collection methodsFor: 'testing' stamp: 'ar 8/17/1999 19:43'!
+isCollection
+	"Return true if the receiver is some sort of Collection and responds to basic collection messages such as #size and #do:"
+	^true! !

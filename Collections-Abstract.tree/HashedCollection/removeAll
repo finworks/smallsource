@@ -1,0 +1,7 @@
+
+!HashedCollection methodsFor: 'removing' stamp: 'TristanBourgois 4/30/2010 16:13'!
+removeAll
+	"remove all elements from this collection.
+	Preserve the capacity"
+	
+	self initialize: self capacity! !

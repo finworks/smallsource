@@ -1,0 +1,4 @@
+
+!RBAbstractVariablesRefactoring methodsFor: 'transforming' stamp: ''!
+instanceVariableNames
+	^fromClass allInstanceVariableNames asSet! !

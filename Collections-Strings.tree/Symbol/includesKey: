@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'testing' stamp: 'md 1/20/2006 16:16'!
+includesKey: sym
+	^self == sym.! !

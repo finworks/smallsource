@@ -1,0 +1,7 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'ar 8/14/1998 21:20'!
+identityIndexOf: anElement 
+	"Answer the index of anElement within the receiver. If the receiver does 
+	not contain anElement, answer 0."
+
+	^self identityIndexOf: anElement ifAbsent: [0]! !

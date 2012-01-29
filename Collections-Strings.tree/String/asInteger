@@ -1,0 +1,5 @@
+
+!String methodsFor: 'converting' stamp: 'laza 10/1/2004 09:55'!
+asInteger 
+	^self asSignedInteger
+! !

@@ -1,0 +1,11 @@
+
+!String methodsFor: 'accessing' stamp: 'yo 12/17/2002 16:56'!
+leadingCharRunLengthAt: index
+
+	| leadingChar |
+	leadingChar := (self at: index) leadingChar.
+	index to: self size do: [:i |
+		(self at: i) leadingChar ~= leadingChar ifTrue: [^ i - index].
+	].
+	^ self size - index + 1.
+! !

@@ -1,0 +1,4 @@
+
+!Collection methodsFor: 'converting' stamp: 'ar 9/22/2000 10:12'!
+asIdentitySet
+	^(IdentitySet new: self size) addAll: self; yourself! !

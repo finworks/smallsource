@@ -1,0 +1,4 @@
+
+!RBCreateAccessorsForVariableRefactoring methodsFor: 'private-accessing' stamp: ''!
+getterMethod
+	^getterMethod! !

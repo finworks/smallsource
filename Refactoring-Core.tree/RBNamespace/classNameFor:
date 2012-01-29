@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'private' stamp: 'lr 10/31/2009 17:37'!
+classNameFor: aBehavior 
+	^ aBehavior theNonMetaClass name! !

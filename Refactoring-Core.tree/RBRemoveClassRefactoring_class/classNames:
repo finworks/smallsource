@@ -1,0 +1,4 @@
+
+!RBRemoveClassRefactoring class methodsFor: 'instance creation' stamp: ''!
+classNames: aClassNameCollection 
+	^self new classNames: aClassNameCollection! !

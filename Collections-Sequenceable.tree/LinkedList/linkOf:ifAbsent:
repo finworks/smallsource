@@ -1,0 +1,8 @@
+
+!LinkedList methodsFor: 'private' stamp: 'HenrikSperreJohansen 10/18/2009 17:43'!
+linkOf: anObject ifAbsent: errorBlock 
+	
+	self
+		linksDo: [:el | el value = anObject
+				ifTrue: [^ el]].
+	^ errorBlock value! !

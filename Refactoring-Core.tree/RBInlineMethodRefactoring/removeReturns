@@ -1,0 +1,8 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+removeReturns
+	| rewriter |
+	rewriter := RBParseTreeRewriter new.
+	rewriter replace: '^``@object' with: '``@object'.
+	(rewriter executeTree: inlineParseTree) 
+		ifTrue: [inlineParseTree := rewriter tree]! !

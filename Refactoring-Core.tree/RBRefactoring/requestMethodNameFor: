@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'requests' stamp: 'dvf 9/8/2001 19:32'!
+requestMethodNameFor: aMethodName 
+	^(self options at: #methodName) value: self value: aMethodName! !

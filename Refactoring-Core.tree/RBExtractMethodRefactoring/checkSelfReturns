@@ -1,0 +1,10 @@
+
+!RBExtractMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+checkSelfReturns
+	| searcher |
+	searcher := RBParseTreeSearcher new.
+	searcher
+		matches: '^self' do: [:aNode :answer | answer];
+		matches: '^`@anything' do: [:aNode :answer | true].
+	(searcher executeTree: extractedParseTree initialAnswer: false) 
+		ifTrue: [self placeholderNode asReturn]! !

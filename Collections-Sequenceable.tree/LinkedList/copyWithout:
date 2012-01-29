@@ -1,0 +1,7 @@
+
+!LinkedList methodsFor: 'copying' stamp: 'HenrikSperreJohansen 10/18/2009 13:02'!
+copyWithout: oldElement
+	|newInst| 
+	newInst := self class new.
+	self do: [:each | each = oldElement ifFalse: [newInst add: each]].
+	^newInst! !

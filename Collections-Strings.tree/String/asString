@@ -1,0 +1,7 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+asString
+	"Answer this string."
+
+	^ self
+! !

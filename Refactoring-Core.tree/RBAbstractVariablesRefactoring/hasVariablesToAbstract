@@ -1,0 +1,4 @@
+
+!RBAbstractVariablesRefactoring methodsFor: 'testing' stamp: 'lr 2/6/2010 13:34'!
+hasVariablesToAbstract
+	^ instVarReaders notEmpty or: [ instVarWriters notEmpty or: [ classVarReaders notEmpty or: [ classVarWriters notEmpty ] ] ]! !

@@ -1,0 +1,5 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'dgd 9/13/2004 23:42'!
+reject: rejectBlock thenDo: doBlock 
+	"Utility method to improve readability."
+	^ (self reject: rejectBlock) do: doBlock! !

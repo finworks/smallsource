@@ -1,0 +1,4 @@
+
+!RBExtractMethodToComponentRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	^RBCondition empty! !

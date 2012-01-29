@@ -1,0 +1,4 @@
+
+!RBRemoveMethodRefactoring class methodsFor: 'instance creation' stamp: ''!
+removeMethods: selectorCollection from: aClass
+	^self new removeMethods: selectorCollection from: aClass! !

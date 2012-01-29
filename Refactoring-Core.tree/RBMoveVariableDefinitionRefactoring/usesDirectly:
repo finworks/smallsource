@@ -1,0 +1,10 @@
+
+!RBMoveVariableDefinitionRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+usesDirectly: aParseTree 
+	| searcher |
+	searcher := RBParseTreeSearcher new.
+	searcher
+		matches: '[:`@args | | `@temps | `@.Statements]'
+			do: [:aNode :answer | answer];
+		matches: name do: [:aNode :answer | true].
+	^searcher executeTree: aParseTree initialAnswer: false! !

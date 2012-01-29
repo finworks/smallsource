@@ -1,0 +1,15 @@
+
+!String methodsFor: 'converting' stamp: 'yo 7/5/2004 16:43'!
+withBlanksTrimmed
+	"Return a copy of the receiver from which leading and trailing blanks have been trimmed."
+
+	| first result |
+	first := self findFirst: [:c | c isSeparator not].
+	first = 0 ifTrue: [^ ''].  "no non-separator character"
+	result :=  self
+		copyFrom: first
+		to: (self findLast: [:c | c isSeparator not]).
+	result isOctetString ifTrue: [^ result asOctetString] ifFalse: [^ result].
+
+	" ' abc  d   ' withBlanksTrimmed"
+! !

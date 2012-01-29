@@ -1,0 +1,12 @@
+
+!RBRefactoryTyper methodsFor: 'computing types' stamp: 'lr 5/29/2010 09:46'!
+implementorsOf: aSelector 
+	| classes |
+	classes := OrderedCollection new.
+	self rootClasses do: 
+			[:each | 
+			self 
+				implementorsOf: aSelector
+				in: each
+				storeIn: classes].
+	^classes! !

@@ -1,0 +1,7 @@
+
+!ArrayedCollection methodsFor: 'accessing' stamp: 'sma 5/12/2000 11:36'!
+size
+	"Answer how many elements the receiver contains."
+
+	<primitive: 62>
+	^ self basicSize! !

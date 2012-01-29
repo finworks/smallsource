@@ -1,0 +1,8 @@
+
+!OrderedCollection methodsFor: 'adding' stamp: 'StephaneDucasse 12/25/2009 12:13'!
+addAllLast: aCollection 
+	"Add each element of aCollection at the end of the receiver. 
+	Answer aCollection."
+
+	aCollection do: [:each | self addLast: each].
+	^aCollection! !

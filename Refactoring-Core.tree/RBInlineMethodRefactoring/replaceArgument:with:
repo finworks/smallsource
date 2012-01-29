@@ -1,0 +1,8 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/2/2009 00:14'!
+replaceArgument: sourceNode with: replacementNode 
+	| rewriter |
+	rewriter := RBParseTreeRewriter new.
+	rewriter replaceTree: sourceNode withTree: replacementNode.
+	(rewriter executeTree: inlineParseTree body) 
+		ifTrue: [inlineParseTree body: rewriter tree]! !

@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'accessing' stamp: 'yo 12/29/2002 10:14'!
+leadingChar
+
+	^ (value bitAnd: (16r3FC00000)) bitShift: -22.
+! !

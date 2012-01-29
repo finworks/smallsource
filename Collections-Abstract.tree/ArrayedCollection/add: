@@ -1,0 +1,4 @@
+
+!ArrayedCollection methodsFor: 'adding' stamp: 'sma 5/12/2000 14:09'!
+add: newObject
+	self shouldNotImplement! !

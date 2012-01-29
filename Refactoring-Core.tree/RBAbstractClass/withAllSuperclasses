@@ -1,0 +1,6 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+withAllSuperclasses
+	^(self allSuperclasses)
+		add: self;
+		yourself! !

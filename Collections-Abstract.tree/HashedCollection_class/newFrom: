@@ -1,0 +1,5 @@
+
+!HashedCollection class methodsFor: 'instance creation' stamp: 'HenrikSperreJohansen 9/1/2010 22:27'!
+newFrom: aCollection 
+	"Answer an instance of me containing the same elements as aCollection."
+	^self subclassResponsibility! !

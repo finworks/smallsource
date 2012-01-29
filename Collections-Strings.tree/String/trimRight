@@ -1,0 +1,6 @@
+
+!String methodsFor: 'copying' stamp: 'AdrienBarreau 6/17/2010 10:17'!
+trimRight
+	"Trim separators from the right side of the receiving string."
+	
+	^ self trimRight: [ :char | char isSeparator ]! !

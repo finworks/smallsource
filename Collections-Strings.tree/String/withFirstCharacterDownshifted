@@ -1,0 +1,11 @@
+
+!String methodsFor: 'converting' stamp: 'md 9/19/2004 15:19'!
+withFirstCharacterDownshifted
+	"Return a copy with the first letter downShifted"
+	
+	| answer |
+	
+	self ifEmpty: [^ self copy].
+	answer := self copy.
+	answer at: 1 put: (answer at: 1) asLowercase.
+	^ answer. ! !

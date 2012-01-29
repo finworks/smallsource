@@ -1,0 +1,4 @@
+
+LinkedList class
+	uses: TSortable classTrait
+	instanceVariableNames: ''!

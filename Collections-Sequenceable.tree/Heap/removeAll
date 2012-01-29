@@ -1,0 +1,6 @@
+
+!Heap methodsFor: 'removing' stamp: 'klub 9/14/2009 19:10'!
+removeAll
+
+	array atAllPut: nil.
+	tally := 0! !

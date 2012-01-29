@@ -1,0 +1,6 @@
+
+!NotFound methodsFor: 'accessing' stamp: 'SvenVanCaekenberghe 4/18/2011 14:30'!
+object: anObject
+	"Set the object that was not found"
+	
+	object := anObject! !

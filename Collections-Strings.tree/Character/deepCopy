@@ -1,0 +1,7 @@
+
+!Character methodsFor: 'copying' stamp: 'ul 4/26/2011 02:33'!
+deepCopy
+	"Characters from 0 to 255 are unique, copy only the rest."
+	
+	value < 256 ifTrue: [ ^self ].
+	^super deepCopy! !

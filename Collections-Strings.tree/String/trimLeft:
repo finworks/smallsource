@@ -1,0 +1,6 @@
+
+!String methodsFor: 'copying' stamp: 'AdrienBarreau 6/17/2010 10:17'!
+trimLeft: aBlock
+	"Trim characters satisfying the condition given in aBlock from the left side of the receiving string."
+	
+	^ self trimLeft: aBlock right: [ :char | false ]! !

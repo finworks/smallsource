@@ -1,0 +1,4 @@
+
+!RBChangeMethodNameRefactoring methodsFor: 'testing' stamp: ''!
+implementorsCanBePrimitives
+	^false! !

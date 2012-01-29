@@ -1,0 +1,5 @@
+
+!String methodsFor: 'converting' stamp: 'NikoSchwarz 10/24/2009 10:19'!
+squeezeOutNumber
+	"Try to find a number somewhere in this string, as explained in Number>readFrom:"
+	^ Number squeezeNumberOutOfString: self! !

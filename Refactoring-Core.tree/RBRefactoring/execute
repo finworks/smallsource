@@ -1,0 +1,5 @@
+
+!RBRefactoring methodsFor: 'transforming' stamp: 'lr 9/8/2011 20:14'!
+execute
+	self primitiveExecute.
+	RBRefactoringManager instance addRefactoring: self! !

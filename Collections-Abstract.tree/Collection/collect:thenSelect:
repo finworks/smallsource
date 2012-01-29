@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'sma 5/12/2000 11:51'!
+collect: collectBlock thenSelect: selectBlock
+	"Utility method to improve readability."
+
+	^ (self collect: collectBlock) select: selectBlock! !

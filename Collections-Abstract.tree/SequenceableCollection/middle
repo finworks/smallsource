@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'md 1/19/2006 09:56'!
+middle
+	"Answer the middle element of the receiver."
+	^ self at: self size // 2 + 1! !

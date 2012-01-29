@@ -1,0 +1,10 @@
+
+!RBClass methodsFor: 'accessing' stamp: 'bh 11/8/2000 15:22'!
+category
+	^category isNil 
+		ifTrue: 
+			[self isDefined
+				ifTrue: [category := self realClass category]
+				ifFalse: [model environment whichCategoryIncludes: self name]]
+		ifFalse: [category]
+! !

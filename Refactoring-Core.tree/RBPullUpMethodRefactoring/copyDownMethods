@@ -1,0 +1,4 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'transforming' stamp: ''!
+copyDownMethods
+	selectors do: [:each | self copyDownMethod: each]! !

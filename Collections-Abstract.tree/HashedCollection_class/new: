@@ -1,0 +1,5 @@
+
+!HashedCollection class methodsFor: 'instance creation' stamp: 'TristanBourgois 4/30/2010 16:13'!
+new: nElements
+	"Create a Set large enough to hold nElements without growing"
+	^ self basicNew initialize: (self sizeFor: nElements)! !

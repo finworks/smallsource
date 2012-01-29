@@ -1,0 +1,9 @@
+
+!RBExpandReferencedPoolsRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBNamespace forMethod: aParseTree fromClass: aClass toClasses: classCollection 
+	^(self new)
+		model: aRBNamespace;
+		forMethod: aParseTree
+			fromClass: aClass
+			toClasses: classCollection;
+		yourself! !

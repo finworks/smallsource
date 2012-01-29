@@ -1,0 +1,4 @@
+
+!RBClass methodsFor: 'accessing' stamp: 'lr 7/23/2010 08:03'!
+sharedPools
+	^ self allPoolDictionaryNames collect: [ :each | Smalltalk globals at: each asSymbol ifAbsent: [ Dictionary new ] ]! !

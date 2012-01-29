@@ -1,0 +1,4 @@
+
+!RBProtectInstanceVariableRefactoring methodsFor: 'preconditions' stamp: ''!
+preconditions
+	^RBCondition definesInstanceVariable: variableName in: class! !

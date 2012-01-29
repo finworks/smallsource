@@ -1,0 +1,4 @@
+
+!RBAddInstanceVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	class addInstanceVariable: variableName! !

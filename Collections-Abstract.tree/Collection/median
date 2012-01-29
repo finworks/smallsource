@@ -1,0 +1,4 @@
+
+!Collection methodsFor: 'math functions' stamp: 'TAG 11/6/1998 16:00'!
+median
+	^ self asSortedCollection median! !

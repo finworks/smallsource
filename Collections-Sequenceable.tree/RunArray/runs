@@ -1,0 +1,5 @@
+
+!RunArray methodsFor: 'private' stamp: ''!
+runs
+
+	^runs! !

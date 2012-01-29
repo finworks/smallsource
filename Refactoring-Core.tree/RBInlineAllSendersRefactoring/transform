@@ -1,0 +1,7 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		inlineSelfSends;
+		removeMethod;
+		checkInlinedMethods! !

@@ -1,0 +1,4 @@
+
+!SortedCollection methodsFor: 'adding' stamp: 'go 4/27/2000 13:19'!
+add: newObject
+	^ super insert: newObject before: (self indexForInserting: newObject)! !

@@ -1,0 +1,4 @@
+
+!RBMetaclass methodsFor: 'testing' stamp: ''!
+isMeta
+	^true! !

@@ -1,0 +1,14 @@
+
+!RBCreateAccessorsForVariableRefactoring methodsFor: 'private-accessing' stamp: 'lr 11/2/2009 00:14'!
+findGetterMethod
+	| definingClass matcher |
+	definingClass := self definingClass.
+	matcher := RBParseTreeSearcher getterMethod: variableName.
+	^self possibleGetterSelectors detect: 
+			[:each | 
+			(self 
+				checkClass: definingClass
+				selector: each
+				using: matcher) notNil 
+				and: [(definingClass subclassRedefines: each) not]]
+		ifNone: [nil]! !

@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'testing' stamp: ''!
+hasRemoved: aSymbol 
+	^removedClasses includes: aSymbol! !

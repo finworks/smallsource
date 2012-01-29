@@ -1,0 +1,5 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: ''!
+renameConflictingTemporaries
+	inlineParseTree allDefinedVariables 
+		do: [:each | self renameConflictingTemporary: each]! !

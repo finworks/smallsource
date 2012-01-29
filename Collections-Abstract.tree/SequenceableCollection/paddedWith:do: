@@ -1,0 +1,8 @@
+
+!SequenceableCollection methodsFor: 'enumerating' stamp: 'nk 3/30/2002 12:45'!
+paddedWith: otherCollection do: twoArgBlock 
+	"Evaluate twoArgBlock with corresponding elements from this collection and otherCollection.
+	Missing elements from either will be passed as nil."
+	1 to: (self size max: otherCollection size) do:
+		[:index | twoArgBlock value: (self at: index ifAbsent: [])
+				value: (otherCollection at: index ifAbsent: [])]! !

@@ -1,0 +1,4 @@
+
+!RBAbstractCondition methodsFor: 'private' stamp: ''!
+errorStringFor: aBoolean
+	^self errorMacro expandMacrosWith: aBoolean! !

@@ -1,0 +1,6 @@
+
+!String methodsFor: 'converting' stamp: 'yo 12/19/2003 21:16'!
+asSqueakPathName
+
+	^ self.
+! !

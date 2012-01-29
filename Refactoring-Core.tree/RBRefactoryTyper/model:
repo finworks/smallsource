@@ -1,0 +1,4 @@
+
+!RBRefactoryTyper methodsFor: 'private' stamp: ''!
+model: aRBSmalltalk
+	model := aRBSmalltalk! !

@@ -1,0 +1,8 @@
+
+!RBChildrenToSiblingsRefactoring class methodsFor: 'instance creation' stamp: ''!
+name: aClassName class: aClass subclasses: subclassCollection 
+	^(self new)
+		name: aClassName
+			class: aClass
+			subclasses: subclassCollection;
+		yourself! !

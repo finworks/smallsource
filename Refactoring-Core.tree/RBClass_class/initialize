@@ -1,0 +1,4 @@
+
+!RBClass class methodsFor: 'class initialization' stamp: 'lr 7/1/2008 10:57'!
+initialize
+	LookupComment := Object new! !

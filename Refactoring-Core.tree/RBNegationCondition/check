@@ -1,0 +1,4 @@
+
+!RBNegationCondition methodsFor: 'checking' stamp: ''!
+check
+	^condition check not! !

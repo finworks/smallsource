@@ -1,0 +1,4 @@
+
+!String methodsFor: 'formatting' stamp: 'md 5/26/2005 13:34'!
+expandMacrosWith: anObject 
+	^self expandMacrosWithArguments: (Array with: anObject)! !

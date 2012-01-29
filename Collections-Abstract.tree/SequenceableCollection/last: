@@ -1,0 +1,9 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'sma 6/1/2000 15:30'!
+last: n
+	"Answer the last n elements of the receiver.  
+	Raise an error if there are not enough elements."
+
+	| size |
+	size := self size.
+	^ self copyFrom: size - n + 1 to: size! !

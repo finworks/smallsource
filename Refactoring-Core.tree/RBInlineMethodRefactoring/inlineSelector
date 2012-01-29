@@ -1,0 +1,5 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: ''!
+inlineSelector
+	sourceMessage isNil ifTrue: [self findSelectedMessage].
+	^sourceMessage selector! !

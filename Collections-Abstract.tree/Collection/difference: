@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'sma 5/12/2000 17:52'!
+difference: aCollection
+	"Answer the set theoretic difference of two collections."
+
+	^ self reject: [:each | aCollection includes: each]! !

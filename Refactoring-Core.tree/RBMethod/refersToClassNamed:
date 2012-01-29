@@ -1,0 +1,8 @@
+
+!RBMethod methodsFor: 'testing' stamp: 'lr 11/2/2009 00:14'!
+refersToClassNamed: aSymbol 
+	| searcher |
+	searcher := RBParseTreeSearcher new.
+	searcher matches: aSymbol asString do: [:node :answer | true].
+	^(searcher executeTree: self parseTree initialAnswer: false) 
+		or: [self refersToSymbol: aSymbol]! !

@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: 'lr 10/26/2009 22:08'!
+theNonMetaClass
+	^ model classNamed: self name! !

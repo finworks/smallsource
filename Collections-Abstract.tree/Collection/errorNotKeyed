@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'private' stamp: 'yo 6/29/2004 13:14'!
+errorNotKeyed
+
+	self error: ('Instances of {1} do not respond to keyed accessing messages.' translated format: {self class name})
+! !

@@ -1,0 +1,5 @@
+
+!HashedCollection methodsFor: 'explorer' stamp: 'TristanBourgois 4/30/2010 16:13'!
+hasContentsInExplorer
+
+	^self notEmpty! !

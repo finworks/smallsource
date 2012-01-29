@@ -1,0 +1,6 @@
+
+!ByteString methodsFor: 'accessing' stamp: 'ar 12/27/1999 13:44'!
+byteAt: index put: value
+	<primitive: 61>
+	self at: index put: value asCharacter.
+	^value! !

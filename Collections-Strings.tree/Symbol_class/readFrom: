@@ -1,0 +1,6 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'di 10/11/1999 00:02'!
+readFrom: strm  "Symbol readFromString: '#abc'"
+
+	strm peek = $# ifFalse: [self error: 'Symbols must be introduced by #'].
+	^ (Scanner new scan: strm) advance  "Just do what the code scanner does"! !

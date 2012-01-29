@@ -1,0 +1,4 @@
+
+!RBChangeMethodNameRefactoring methodsFor: 'preconditions' stamp: ''!
+myConditions
+	^self subclassResponsibility! !

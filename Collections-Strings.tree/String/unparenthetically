@@ -1,0 +1,18 @@
+
+!String methodsFor: 'converting' stamp: 'yo 8/27/2002 11:20'!
+unparenthetically
+	"If the receiver starts with (..( and ends with matching )..), strip them"
+
+	| curr |
+	curr := self.
+	[((curr first = $() and: [curr last = $)])] whileTrue:
+		[curr := curr copyFrom: 2 to: (curr size - 1)].
+
+	^ curr
+
+"
+
+'((fred the bear))' unparenthetically
+
+"
+		! !

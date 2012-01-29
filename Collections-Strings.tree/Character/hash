@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'comparing' stamp: ''!
+hash
+	"Hash is reimplemented because = is implemented."
+
+	^value! !

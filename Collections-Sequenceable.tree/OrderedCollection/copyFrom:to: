@@ -1,0 +1,7 @@
+
+!OrderedCollection methodsFor: 'copying' stamp: 'nice 10/5/2009 10:18'!
+copyFrom: startIndex to: endIndex 
+	"Answer a copy of the receiver that contains elements from position
+	startIndex to endIndex."
+
+	^self shallowCopy postCopyFrom: startIndex to: endIndex! !

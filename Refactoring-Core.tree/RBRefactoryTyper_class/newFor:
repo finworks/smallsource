@@ -1,0 +1,6 @@
+
+!RBRefactoryTyper class methodsFor: 'instance creation' stamp: ''!
+newFor: aRBNamespace 
+	^(self new)
+		model: aRBNamespace;
+		yourself! !

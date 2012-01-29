@@ -1,0 +1,4 @@
+
+!Array methodsFor: 'testing' stamp: 'eem 5/8/2008 11:13'!
+isArray
+	^true! !

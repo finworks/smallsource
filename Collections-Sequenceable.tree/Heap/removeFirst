@@ -1,0 +1,6 @@
+
+!Heap methodsFor: 'removing' stamp: 'nice 3/26/2011 17:36'!
+removeFirst
+	"Remove the first element from the receiver"
+	self emptyCheck.
+	^self privateRemoveAt: 1! !

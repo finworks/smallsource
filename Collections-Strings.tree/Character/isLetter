@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'testing' stamp: 'yo 8/5/2003 16:43'!
+isLetter
+
+	^ (EncodedCharSet charsetAt: self leadingChar) isLetter: self.
+! !

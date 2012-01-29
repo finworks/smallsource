@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+instanceVariableNames
+	^self privateInstanceVariableNames copy! !

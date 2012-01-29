@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+removeSubclass: aRBClass 
+	self subclasses remove: aRBClass ifAbsent: []! !

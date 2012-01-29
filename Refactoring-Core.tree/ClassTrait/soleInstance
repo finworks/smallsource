@@ -1,0 +1,4 @@
+
+!ClassTrait methodsFor: '*refactoring-core' stamp: 'md 3/14/2006 16:37'!
+soleInstance
+	^baseTrait! !

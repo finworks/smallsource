@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'accessing' stamp: ''!
+name
+	^changes name! !

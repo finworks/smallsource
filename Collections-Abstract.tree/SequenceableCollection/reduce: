@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'enumerating' stamp: 'LukasRenggli 5/10/2010 12:59'!
+reduce: aBlock
+	^ self reduceLeft: aBlock! !

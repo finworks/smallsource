@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'initialize-release' stamp: ''!
+model: aRBSmalltalk
+	model := aRBSmalltalk! !

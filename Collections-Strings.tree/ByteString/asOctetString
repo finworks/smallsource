@@ -1,0 +1,6 @@
+
+!ByteString methodsFor: 'converting' stamp: 'yo 8/28/2002 16:52'!
+asOctetString
+
+	^ self.
+! !

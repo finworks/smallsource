@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'accessing' stamp: 'lr 1/20/2010 18:08'!
+description: aString
+	self changes name: aString! !

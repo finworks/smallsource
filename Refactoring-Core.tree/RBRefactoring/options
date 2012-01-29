@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'accessing' stamp: ''!
+options
+	^options isNil ifTrue: [self class refactoringOptions] ifFalse: [options]! !

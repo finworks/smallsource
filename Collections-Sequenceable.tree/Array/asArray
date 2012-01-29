@@ -1,0 +1,6 @@
+
+!Array methodsFor: 'converting' stamp: 'sma 5/12/2000 17:32'!
+asArray
+	"Answer with the receiver itself."
+
+	^ self! !

@@ -1,0 +1,14 @@
+
+!RBAbstractClass methodsFor: 'method accessing' stamp: 'lr 11/1/2009 23:47'!
+compile: aString classified: aSymbolCollection 
+	| change method |
+	change := model 
+				compile: aString
+				in: self
+				classified: aSymbolCollection.
+	method := RBMethod 
+				for: self
+				source: aString
+				selector: change selector.
+	self addMethod: method.
+	^ change! !

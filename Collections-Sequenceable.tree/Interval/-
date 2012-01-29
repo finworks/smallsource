@@ -1,0 +1,5 @@
+
+!Interval methodsFor: 'arithmetic' stamp: 'ajh 3/13/2003 15:46'!
+- number
+
+	^ start - number to: stop - number by: step! !

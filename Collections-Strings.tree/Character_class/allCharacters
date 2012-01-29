@@ -1,0 +1,7 @@
+
+!Character class methodsFor: 'instance creation' stamp: 'ar 4/9/2005 22:37'!
+allCharacters
+	"This name is obsolete since only the characters that will fit in a byte can be queried"
+	^self allByteCharacters
+	
+! !

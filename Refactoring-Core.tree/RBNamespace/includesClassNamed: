@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'testing' stamp: ''!
+includesClassNamed: aSymbol 
+	^(self classNamed: aSymbol) notNil! !

@@ -1,0 +1,5 @@
+
+!String methodsFor: 'accessing' stamp: 'yo 11/3/2004 19:24'!
+includesSubstring: aString caseSensitive: caseSensitive
+	
+	^ (self findString: aString startingAt: 1 caseSensitive: caseSensitive) > 0! !

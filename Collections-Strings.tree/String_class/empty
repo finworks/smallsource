@@ -1,0 +1,5 @@
+
+!String class methodsFor: 'instance creation' stamp: 'StephaneDucasse 2/13/2010 12:19'!
+empty
+	"A canonicalized empty String instance."
+	^ ''! !

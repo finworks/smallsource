@@ -1,0 +1,4 @@
+
+!SortedCollection methodsFor: 'adding' stamp: 'go 4/26/2000 17:26'!
+addFirst: newObject
+	self shouldNotImplement! !

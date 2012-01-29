@@ -1,0 +1,4 @@
+
+!RBAbstractClassVariableRefactoring methodsFor: 'transforming' stamp: ''!
+createAccessors
+	self performComponentRefactoring: self accessorsRefactoring! !

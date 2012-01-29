@@ -1,0 +1,7 @@
+
+!Collection methodsFor: 'testing' stamp: 'ar 11/21/2009 00:36'!
+ifNotEmptyDo: aBlock
+	"Evaluate the given block with the receiver as its argument."
+
+	self isEmpty ifFalse: [^ aBlock value: self].
+! !

@@ -1,0 +1,10 @@
+
+!RBNamespace methodsFor: 'initialize-release' stamp: 'lr 9/8/2011 20:25'!
+initialize
+	changes := RBCompositeRefactoryChange new.
+	environment := RBBrowserEnvironment new.
+	newClasses := IdentityDictionary new.
+	changedClasses := IdentityDictionary new.
+	removedClasses := Set new.
+	implementorsCache := IdentityDictionary new.
+	sendersCache := IdentityDictionary new! !

@@ -1,0 +1,7 @@
+
+!RBConjunctiveCondition methodsFor: 'printing' stamp: 'bh 4/10/2001 16:52'!
+printOn: aStream 
+	aStream nextPutAll: left asString;
+		nextPutAll: ' & ';
+		nextPutAll: right asString
+! !

@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'utilities' stamp: ''!
+checkMethodName: aName in: aClass 
+	^RBCondition checkMethodName: aName in: aClass! !

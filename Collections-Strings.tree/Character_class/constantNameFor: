@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'private' stamp: 'lr 11/21/2005 17:24'!
+constantNameFor: aCharacter
+	^ self constantNames
+		detect: [ :each | (self perform: each) = aCharacter ]
+		ifNone: [ nil ].! !

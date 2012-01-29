@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'instance creation' stamp: 'StephaneDucasse 3/28/2010 17:41'!
+codePoint: anInteger 
+	"Just for ANSI Compliance"	
+	^self value: anInteger
+	! !

@@ -1,0 +1,5 @@
+
+!RBPushDownMethodRefactoring methodsFor: 'initialize-release' stamp: ''!
+pushDown: selectorCollection from: aClass 
+	class := self classObjectFor: aClass.
+	selectors := selectorCollection! !

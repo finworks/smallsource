@@ -1,0 +1,16 @@
+
+!RBRenameMethodRefactoring methodsFor: 'printing' stamp: 'lr 3/9/2010 16:09'!
+storeOn: aStream 
+	aStream nextPut: $(.
+	self class storeOn: aStream.
+	aStream
+		nextPutAll: ' renameMethod: #';
+		nextPutAll: oldSelector;
+		nextPutAll: ' in: '.
+	class storeOn: aStream.
+	aStream
+		nextPutAll: ' to: #';
+		nextPutAll: newSelector;
+		nextPutAll: ' permutation: '.
+	permutation storeOn: aStream.
+	aStream nextPut: $)! !

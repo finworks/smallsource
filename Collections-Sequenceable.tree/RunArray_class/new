@@ -1,0 +1,5 @@
+
+!RunArray class methodsFor: 'instance creation' stamp: 'ar 10/16/2001 19:03'!
+new
+
+	^self runs: Array new values: Array new! !

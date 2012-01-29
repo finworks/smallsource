@@ -1,0 +1,4 @@
+
+!ByteSymbol class methodsFor: 'primitives' stamp: 'ar 8/18/2005 13:46'!
+findFirstInString: aString inSet: inclusionMap startingAt: start
+	^ByteString findFirstInString: aString  inSet: inclusionMap startingAt: start! !

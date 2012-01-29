@@ -1,0 +1,4 @@
+
+!SortedCollection methodsFor: 'accessing' stamp: 'sma 4/28/2000 17:47'!
+at: anInteger put: anObject
+	self shouldNotImplement! !

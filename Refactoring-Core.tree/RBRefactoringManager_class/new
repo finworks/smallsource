@@ -1,0 +1,4 @@
+
+!RBRefactoringManager class methodsFor: 'instance creation' stamp: 'lr 4/4/2010 08:31'!
+new
+	^ self shouldNotImplement! !

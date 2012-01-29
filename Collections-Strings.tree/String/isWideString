@@ -1,0 +1,5 @@
+
+!String methodsFor: 'testing' stamp: 'ar 4/12/2005 19:52'!
+isWideString
+	"Answer whether the receiver is a WideString"
+	^false! !

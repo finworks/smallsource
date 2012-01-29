@@ -1,0 +1,7 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		renameConflictingTemporaries;
+		insertInlinedMethod;
+		compileMethod! !

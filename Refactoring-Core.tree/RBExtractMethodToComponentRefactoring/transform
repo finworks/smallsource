@@ -1,0 +1,7 @@
+
+!RBExtractMethodToComponentRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		extractMethod;
+		moveMethod;
+		inlineForwarder! !

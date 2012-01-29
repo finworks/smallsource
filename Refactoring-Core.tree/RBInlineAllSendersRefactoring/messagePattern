@@ -1,0 +1,4 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'transforming' stamp: ''!
+messagePattern
+	^'self ' , (self buildSelectorString: selector)! !

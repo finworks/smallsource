@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'changes' stamp: 'lr 7/1/2008 11:06'!
+comment: aString in: aClass
+	^ changes comment: aString in: aClass! !

@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'printing' stamp: ''!
+storeOn: aStream 
+	aStream nextPutAll: self name! !

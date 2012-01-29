@@ -1,0 +1,8 @@
+
+!ByteString methodsFor: 'converting' stamp: 'ar 4/10/2005 17:20'!
+asByteArray
+	| ba sz |
+	sz := self byteSize.
+	ba := ByteArray new: sz.
+	ba replaceFrom: 1 to: sz with: self startingAt: 1.
+	^ba! !

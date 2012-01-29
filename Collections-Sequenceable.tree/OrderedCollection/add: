@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'adding' stamp: ''!
+add: newObject
+
+	^self addLast: newObject! !

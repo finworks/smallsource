@@ -1,0 +1,5 @@
+
+!RBMethodName methodsFor: 'accessing' stamp: ''!
+arguments: nameCollection 
+	arguments := nameCollection.
+	self changed: #arguments! !

@@ -1,0 +1,5 @@
+
+!SparseLargeTable class methodsFor: 'accessing' stamp: 'yo 12/1/2003 15:54'!
+defaultChunkSizeForFiles
+
+	^8000! !

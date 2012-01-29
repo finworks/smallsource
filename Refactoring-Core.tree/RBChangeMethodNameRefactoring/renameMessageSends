@@ -1,0 +1,4 @@
+
+!RBChangeMethodNameRefactoring methodsFor: 'transforming' stamp: ''!
+renameMessageSends
+	self convertAllReferencesTo: oldSelector using: self parseTreeRewriter! !

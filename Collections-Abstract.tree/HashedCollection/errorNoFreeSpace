@@ -1,0 +1,5 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'HenrikSperreJohansen 9/1/2010 21:58'!
+errorNoFreeSpace
+
+	self error: 'There is no free space in this collection!!'! !

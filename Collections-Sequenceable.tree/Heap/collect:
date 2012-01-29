@@ -1,0 +1,4 @@
+
+!Heap methodsFor: 'enumerating' stamp: 'nice 8/21/2010 15:40'!
+collect: aBlock
+	^self collect: aBlock as: Array! !

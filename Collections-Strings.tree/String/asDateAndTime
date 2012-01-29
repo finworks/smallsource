@@ -1,0 +1,6 @@
+
+!String methodsFor: 'converting' stamp: 'StephaneDucasse 4/23/2010 21:06'!
+asDateAndTime
+ 	"Convert from UTC format" 	
+	
+	^ DateAndTime fromString: self! !

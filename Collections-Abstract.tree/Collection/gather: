@@ -1,0 +1,6 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'ab 9/30/2002 19:26'!
+gather: aBlock
+	^ Array streamContents:
+		[:stream |
+		self do: [:ea | stream nextPutAll: (aBlock value: ea)]]! !

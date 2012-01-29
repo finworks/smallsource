@@ -1,0 +1,4 @@
+
+!ByteString methodsFor: 'accessing' stamp: 'ar 3/3/2001 16:17'!
+byteSize
+	^self size! !

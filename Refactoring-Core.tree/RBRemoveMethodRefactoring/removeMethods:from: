@@ -1,0 +1,5 @@
+
+!RBRemoveMethodRefactoring methodsFor: 'initialize-release' stamp: ''!
+removeMethods: selectorCollection from: aClass 
+	class := self classObjectFor: aClass.
+	selectors := selectorCollection! !

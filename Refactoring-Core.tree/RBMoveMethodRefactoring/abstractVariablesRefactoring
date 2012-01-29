@@ -1,0 +1,9 @@
+
+!RBMoveMethodRefactoring methodsFor: 'transforming' stamp: 'lr 9/8/2011 20:11'!
+abstractVariablesRefactoring
+	^RBAbstractVariablesRefactoring 
+		model: self model
+		abstractVariablesIn: parseTree
+		from: class
+		toAll: moveToClasses
+		ignoring: variable! !

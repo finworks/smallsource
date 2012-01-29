@@ -1,0 +1,5 @@
+
+!RBRefactoringManager methodsFor: 'public access' stamp: 'lr 9/8/2011 20:10'!
+addRefactoring: aRefactoring 
+	RBRefactoryChangeManager instance performChange: aRefactoring changes.
+	refactorings add: aRefactoring class name! !

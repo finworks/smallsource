@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'accessing' stamp: 'lr 4/7/2010 18:53'!
+allImplementorsOf: aSelector do: aBlock
+	(self allImplementorsOf: aSelector) do: aBlock! !

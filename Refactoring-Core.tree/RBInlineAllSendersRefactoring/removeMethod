@@ -1,0 +1,9 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'transforming' stamp: 'lr 9/8/2011 20:11'!
+removeMethod
+	self onError: 
+			[self performComponentRefactoring: (RBRemoveMethodRefactoring 
+						model: self model
+						removeMethods: (Array with: selector)
+						from: class)]
+		do: []! !

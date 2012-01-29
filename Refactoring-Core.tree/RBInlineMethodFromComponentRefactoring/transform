@@ -1,0 +1,6 @@
+
+!RBInlineMethodFromComponentRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self abstractVariableReferences.
+	self renameSelfReferences.
+	super transform! !

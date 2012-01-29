@@ -1,0 +1,6 @@
+
+!RBCondition methodsFor: 'initialize-release' stamp: 'lr 11/19/2009 11:45'!
+type: aSymbol block: aBlock errorString: aString 
+ 	type := aSymbol.
+	block := aBlock.
+	self errorMacro: aString! !

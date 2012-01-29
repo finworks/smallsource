@@ -1,0 +1,4 @@
+
+!RBAbstractCondition methodsFor: 'logical operations' stamp: ''!
+not
+	^RBNegationCondition on: self! !

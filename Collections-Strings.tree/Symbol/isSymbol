@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'testing' stamp: 'md 4/30/2003 15:31'!
+isSymbol
+	^ true ! !

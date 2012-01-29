@@ -1,0 +1,6 @@
+
+!Symbol methodsFor: 'converting' stamp: 'st 11/22/2004 17:26'!
+asMutator
+	"Return a setter message from a getter message. For example,
+	#name asMutator returns #name:"
+	^ (self copyWith: $:) asSymbol! !

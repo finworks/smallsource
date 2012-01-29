@@ -1,0 +1,4 @@
+
+!RBRemoveInstanceVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	class removeInstanceVariable: variableName! !

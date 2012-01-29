@@ -1,0 +1,5 @@
+
+!Collection methodsFor: 'converting' stamp: 'MarcusDenker 11/28/2009 11:40'!
+asDictionary
+
+	^ self as: Dictionary! !

@@ -1,0 +1,5 @@
+
+!RBRefactoring methodsFor: 'transforming' stamp: ''!
+performComponentRefactoring: aRefactoring 
+	aRefactoring copyOptionsFrom: self options.
+	aRefactoring primitiveExecute! !

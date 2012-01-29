@@ -1,0 +1,7 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'RAA 5/29/2001 08:09'!
+lookup: aStringOrSymbol
+
+	^(SymbolTable like: aStringOrSymbol) ifNil: [
+		NewSymbols like: aStringOrSymbol
+	]! !

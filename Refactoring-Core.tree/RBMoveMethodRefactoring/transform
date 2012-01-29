@@ -1,0 +1,10 @@
+
+!RBMoveMethodRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		abstractVariables;
+		addSelfReturn;
+		replaceSelfReferences;
+		replaceVariableReferences;
+		compileNewMethods;
+		compileDelagatorMethod! !

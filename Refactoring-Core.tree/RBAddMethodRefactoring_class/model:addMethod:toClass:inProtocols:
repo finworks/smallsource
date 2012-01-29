@@ -1,0 +1,9 @@
+
+!RBAddMethodRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBSmalltalk addMethod: aString toClass: aClass inProtocols: protocolList 
+	^(self new)
+		model: aRBSmalltalk;
+		addMethod: aString
+			toClass: aClass
+			inProtocols: protocolList;
+		yourself! !

@@ -1,0 +1,4 @@
+
+!Character methodsFor: 'converting' stamp: 'sma 3/11/2000 17:21'!
+asString
+	^ String with: self! !

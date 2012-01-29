@@ -1,0 +1,5 @@
+
+!ArrayedCollection methodsFor: 'removing' stamp: 'klub 9/14/2009 16:27'!
+removeAll
+
+	self shouldNotImplement! !

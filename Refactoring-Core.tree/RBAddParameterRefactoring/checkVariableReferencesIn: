@@ -1,0 +1,12 @@
+
+!RBAddParameterRefactoring methodsFor: 'preconditions' stamp: 'lr 11/2/2009 00:14'!
+checkVariableReferencesIn: aParseTree 
+	| searcher |
+	searcher := RBParseTreeSearcher new.
+	searcher matches: '`var'
+		do: 
+			[:aNode :answer | 
+			| name |
+			name := aNode name.
+			(aNode whoDefines: name) isNil ifTrue: [self checkSendersAccessTo: name]].
+	searcher executeTree: aParseTree! !

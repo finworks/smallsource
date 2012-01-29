@@ -1,0 +1,5 @@
+
+!LinkedList methodsFor: 'private' stamp: 'HenrikSperreJohansen 10/19/2009 11:58'!
+validIndex: index
+	 ^index > 0
+			and: [index <= self size]! !

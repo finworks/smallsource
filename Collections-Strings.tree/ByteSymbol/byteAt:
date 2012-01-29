@@ -1,0 +1,5 @@
+
+!ByteSymbol methodsFor: 'accessing' stamp: 'ar 4/10/2005 22:10'!
+byteAt: index
+	<primitive: 60>
+	^(self at: index) asciiValue! !

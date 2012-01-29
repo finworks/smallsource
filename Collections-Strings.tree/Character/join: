@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'splitjoin' stamp: 'onierstrasz 4/10/2009 22:51'!
+join: aSequenceableCollection
+	^ self asString join: aSequenceableCollection
+! !

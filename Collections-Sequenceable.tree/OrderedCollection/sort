@@ -1,0 +1,6 @@
+
+!OrderedCollection methodsFor: 'enumerating' stamp: 'StephaneDucasse 12/23/2009 21:28'!
+sort
+	"Sort the receiver into ascending order using the '<=' operator."
+
+	self sort: [:a :b | a <= b]! !

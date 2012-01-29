@@ -1,0 +1,7 @@
+
+!SharedQueue methodsFor: 'accessing' stamp: 'StephaneDucasse 10/19/2010 13:59'!
+next
+	^monitor critical: [
+		monitor waitWhile: [ items isEmpty ].
+		items removeFirst ]
+! !

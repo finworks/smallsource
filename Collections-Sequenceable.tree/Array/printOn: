@@ -1,0 +1,7 @@
+
+!Array methodsFor: 'printing' stamp: 'sd 7/31/2005 21:44'!
+printOn: aStream
+	self isLiteral ifTrue: [self printAsLiteralFormOn: aStream. ^ self].
+	self isSelfEvaluating ifTrue: [self printAsSelfEvaluatingFormOn: aStream. ^ self].
+
+	super printOn: aStream! !

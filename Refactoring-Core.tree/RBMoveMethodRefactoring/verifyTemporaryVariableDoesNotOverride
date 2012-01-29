@@ -1,0 +1,7 @@
+
+!RBMoveMethodRefactoring methodsFor: 'transforming' stamp: 'lr 1/3/2010 11:48'!
+verifyTemporaryVariableDoesNotOverride
+	(parseTree allDefinedVariables includes: selfVariableName)
+		ifTrue: [ ^ false ].
+	^ moveToClasses 
+		noneSatisfy: [ :each | each definesVariable: selfVariableName ]! !

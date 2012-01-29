@@ -1,0 +1,4 @@
+
+!RBRenameClassRefactoring class methodsFor: 'instance creation' stamp: ''!
+rename: aClass to: aNewName
+	^self new className: aClass name newName: aNewName! !

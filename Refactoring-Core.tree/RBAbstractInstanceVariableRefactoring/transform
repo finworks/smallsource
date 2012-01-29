@@ -1,0 +1,5 @@
+
+!RBAbstractInstanceVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self createAccessors.
+	self abstractReferences! !

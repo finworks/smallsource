@@ -1,0 +1,6 @@
+
+!RunArray methodsFor: 'copying' stamp: 'nice 10/5/2009 08:44'!
+postCopy
+	super postCopy.
+	runs := runs copy.
+	values := values copy! !

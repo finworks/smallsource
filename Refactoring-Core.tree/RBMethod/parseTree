@@ -1,0 +1,4 @@
+
+!RBMethod methodsFor: 'accessing' stamp: ''!
+parseTree
+	^RBParser parseMethod: self source onError: [:str :pos | ^nil]! !

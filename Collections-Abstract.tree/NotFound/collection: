@@ -1,0 +1,6 @@
+
+!NotFound methodsFor: 'accessing' stamp: 'SvenVanCaekenberghe 4/18/2011 14:27'!
+collection: aCollection
+	"Set the collection where something is not found in"
+	
+	self signaler: aCollection! !

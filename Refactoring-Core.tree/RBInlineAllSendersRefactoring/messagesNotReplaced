@@ -1,0 +1,4 @@
+
+!RBInlineAllSendersRefactoring methodsFor: 'accessing' stamp: ''!
+messagesNotReplaced
+	^numberNotReplaced! !

@@ -1,0 +1,7 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+asUppercase
+	"Answer a String made up from the receiver whose characters are all 
+	uppercase."
+
+	^self copy asString translateToUppercase! !

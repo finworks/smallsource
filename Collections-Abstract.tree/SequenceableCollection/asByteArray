@@ -1,0 +1,6 @@
+
+!SequenceableCollection methodsFor: 'converting' stamp: 'sma 5/12/2000 17:36'!
+asByteArray
+	"Answer a ByteArray whose elements are the elements of the receiver."
+
+	^ ByteArray withAll: self! !

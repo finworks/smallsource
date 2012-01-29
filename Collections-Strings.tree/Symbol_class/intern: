@@ -1,0 +1,15 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'SheridanMahoney 11/17/2009 13:23'!
+intern: aStringOrSymbol 
+
+	^(self lookup: aStringOrSymbol) ifNil:[
+		| aClass aSymbol |
+		aStringOrSymbol isSymbol ifTrue:[
+			aSymbol := aStringOrSymbol.
+		] ifFalse:[
+			aClass := aStringOrSymbol isOctetString ifTrue:[ByteSymbol] ifFalse:[WideSymbol].
+			aSymbol := aClass basicNew: aStringOrSymbol size.
+			aSymbol string: aStringOrSymbol.
+		].
+		NewSymbols add: aSymbol.
+		aSymbol].! !

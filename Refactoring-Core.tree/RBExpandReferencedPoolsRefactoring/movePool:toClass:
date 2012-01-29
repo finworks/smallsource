@@ -1,0 +1,6 @@
+
+!RBExpandReferencedPoolsRefactoring methodsFor: 'transforming' stamp: 'lr 10/26/2009 22:08'!
+movePool: aSymbol toClass: aClass 
+	| nonMetaClass |
+	nonMetaClass := aClass theNonMetaClass.
+	(nonMetaClass definesPoolDictionary: aSymbol) ifFalse: [ nonMetaClass addPoolDictionary: aSymbol ]! !

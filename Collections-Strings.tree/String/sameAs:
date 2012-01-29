@@ -1,0 +1,6 @@
+
+!String methodsFor: 'comparing' stamp: 'ar 4/10/2005 17:35'!
+sameAs: aString 
+	"Answer whether the receiver sorts equal to aString. The 
+	collation sequence is ascii with case differences ignored."
+	^(self compare: aString caseSensitive: false) = 2! !

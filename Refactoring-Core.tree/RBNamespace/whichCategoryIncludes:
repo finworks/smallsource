@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'accessing-classes' stamp: ''!
+whichCategoryIncludes: aSymbol
+	^self environment whichCategoryIncludes: aSymbol! !

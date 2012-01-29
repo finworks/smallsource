@@ -1,0 +1,4 @@
+
+!SharedQueue methodsFor: 'size' stamp: 'ls 6/25/2005 14:04'!
+size
+	^monitor critical: [ items size ]! !

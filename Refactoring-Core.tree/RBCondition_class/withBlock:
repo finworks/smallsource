@@ -1,0 +1,4 @@
+
+!RBCondition class methodsFor: 'instance creation' stamp: ''!
+withBlock: aBlock
+	^self new withBlock: aBlock! !

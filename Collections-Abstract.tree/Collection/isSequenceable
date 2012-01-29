@@ -1,0 +1,4 @@
+
+!Collection methodsFor: 'testing' stamp: 'di 11/6/1998 09:16'!
+isSequenceable
+	^ false! !

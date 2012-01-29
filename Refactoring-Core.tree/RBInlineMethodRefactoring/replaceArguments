@@ -1,0 +1,9 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: 'lr 5/9/2010 11:32'!
+replaceArguments
+	sourceMessage arguments reversed
+		with: inlineParseTree arguments reversed
+		do: [ :replacement :source | 
+			(replacement isImmediate or: [ self shouldInlineExpression: replacement newSource ]) 
+				ifTrue: [ self replaceArgument: source with: replacement ]
+				ifFalse: [ self addTemporary: source assignedTo: replacement ] ]! !

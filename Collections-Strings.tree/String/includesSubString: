@@ -1,0 +1,4 @@
+
+!String methodsFor: 'accessing' stamp: 'yo 11/3/2004 19:24'!
+includesSubString: subString
+	^ (self findString: subString startingAt: 1) > 0! !

@@ -1,0 +1,7 @@
+
+!RBInlineMethodFromComponentRefactoring methodsFor: 'transforming' stamp: 'lr 11/23/2009 11:02'!
+addSelfReferenceToSourceMessage
+	| newArguments |
+	newArguments := sourceMessage arguments asOrderedCollection.
+	newArguments addFirst: sourceMessage receiver copy.
+	sourceMessage renameSelector: (self addArgumentToSelector: sourceMessage selector) andArguments: newArguments! !

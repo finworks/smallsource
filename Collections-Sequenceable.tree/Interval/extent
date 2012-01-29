@@ -1,0 +1,7 @@
+
+!Interval methodsFor: 'accessing' stamp: 'stp 8/19/2000 23:52'!
+extent 
+	"Answer the max - min of the receiver interval."
+	"(10 to: 50) extent"
+
+	^stop - start! !

@@ -1,0 +1,7 @@
+
+!RBRenameMethodRefactoring class methodsFor: 'instance creation' stamp: 'md 3/15/2006 17:26'!
+renameMethod: aSelector in: aClass to: newSelector permutation: aMap 
+	^self new renameMethod: aSelector
+		in: aClass
+		to: newSelector
+		permutation: aMap! !

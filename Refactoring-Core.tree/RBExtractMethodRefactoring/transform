@@ -1,0 +1,13 @@
+
+!RBExtractMethodRefactoring methodsFor: 'transforming' stamp: 'lr 11/1/2009 23:04'!
+transform
+	| existingSelector |
+	existingSelector := self existingSelector.
+	self nameNewMethod: (existingSelector isNil 
+				ifTrue: [self getNewMethodName]
+				ifFalse: [existingSelector]).
+	existingSelector isNil 
+		ifTrue: 
+			[class compile: extractedParseTree newSource
+				withAttributesFrom: (class methodFor: selector)].
+	class compileTree: modifiedParseTree! !

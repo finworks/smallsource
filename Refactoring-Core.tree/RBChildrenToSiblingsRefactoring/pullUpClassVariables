@@ -1,0 +1,11 @@
+
+!RBChildrenToSiblingsRefactoring methodsFor: 'private-variables' stamp: 'lr 9/8/2011 20:11'!
+pullUpClassVariables
+	| newSuperclass |
+	newSuperclass := self abstractSuperclass.
+	parent classVariableNames do: 
+			[:each | 
+			self performComponentRefactoring: (RBPullUpClassVariableRefactoring 
+						model: self model
+						variable: each
+						class: newSuperclass)]! !

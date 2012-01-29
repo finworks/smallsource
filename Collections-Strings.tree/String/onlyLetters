@@ -1,0 +1,5 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+onlyLetters
+	"answer the receiver with only letters"
+	^ self select:[:each | each isLetter]! !

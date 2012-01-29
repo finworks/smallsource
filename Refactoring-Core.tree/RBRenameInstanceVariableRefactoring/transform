@@ -1,0 +1,7 @@
+
+!RBRenameInstanceVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	class 
+		renameInstanceVariable: variableName
+		to: newName
+		around: [self renameReferences]! !

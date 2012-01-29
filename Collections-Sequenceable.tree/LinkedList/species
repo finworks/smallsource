@@ -1,0 +1,5 @@
+
+!LinkedList methodsFor: 'enumerating' stamp: 'ajh 8/6/2002 16:39'!
+species
+
+	^ Array! !

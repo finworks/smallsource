@@ -1,0 +1,5 @@
+
+!RBExpandReferencedPoolsRefactoring methodsFor: 'transforming' stamp: 'lr 7/23/2010 08:04'!
+poolVariableNamesIn: poolName 
+	^(Smalltalk globals at: poolName ifAbsent: [Dictionary new]) keys 
+		collect: [:name | name asString]! !

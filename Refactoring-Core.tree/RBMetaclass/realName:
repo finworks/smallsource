@@ -1,0 +1,4 @@
+
+!RBMetaclass methodsFor: 'initialize-release' stamp: 'lr 7/23/2010 08:03'!
+realName: aSymbol 
+	self realClass: (Smalltalk globals at: aSymbol) classSide! !

@@ -1,0 +1,4 @@
+
+!RBMethod methodsFor: 'accessing' stamp: ''!
+source: aString 
+	source := aString! !

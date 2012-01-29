@@ -1,0 +1,6 @@
+
+!ByteString methodsFor: 'testing' stamp: 'HenrikSperreJohansen 1/26/2010 15:21'!
+isAsciiString
+
+
+ ^(self class findFirstInString: self inSet: NonAsciiMap startingAt: 1) = 0! !

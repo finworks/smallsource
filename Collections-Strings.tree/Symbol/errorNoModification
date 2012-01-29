@@ -1,0 +1,5 @@
+
+!Symbol methodsFor: 'private' stamp: ''!
+errorNoModification
+
+	self error: 'symbols can not be modified.'! !

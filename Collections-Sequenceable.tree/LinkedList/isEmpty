@@ -1,0 +1,5 @@
+
+!LinkedList methodsFor: 'testing' stamp: 'marcus.denker 9/14/2008 18:58'!
+isEmpty
+
+	^firstLink isNil! !

@@ -1,0 +1,6 @@
+
+!Array methodsFor: 'self evaluating' stamp: 'sd 7/31/2005 21:44'!
+printAsLiteralFormOn: aStream
+	aStream nextPut: $#.
+	self printElementsOn: aStream
+! !

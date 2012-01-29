@@ -1,0 +1,6 @@
+
+!RunArray methodsFor: 'private' stamp: 'ar 10/16/2001 18:47'!
+setRuns: newRuns setValues: newValues
+	lastIndex := nil.  "flush access cache"
+	runs := newRuns asArray.
+	values := newValues asArray.! !

@@ -1,0 +1,5 @@
+
+!Heap methodsFor: 'growing' stamp: 'ar 7/1/1999 04:17'!
+grow
+	"Become larger."
+	self growTo: self size + self growSize.! !

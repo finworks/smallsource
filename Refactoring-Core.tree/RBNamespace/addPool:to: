@@ -1,0 +1,4 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: ''!
+addPool: aString to: aRBClass 
+	^changes addPool: aString to: aRBClass! !

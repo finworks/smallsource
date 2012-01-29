@@ -1,0 +1,4 @@
+
+!RBRefactoringManager methodsFor: 'initialize-release' stamp: ''!
+initialize
+	refactorings := Bag new! !

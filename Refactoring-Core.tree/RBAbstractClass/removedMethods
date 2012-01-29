@@ -1,0 +1,6 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+removedMethods
+	^removedMethods isNil 
+		ifTrue: [removedMethods := Set new]
+		ifFalse: [removedMethods]! !

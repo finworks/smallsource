@@ -1,0 +1,4 @@
+
+!RBClass methodsFor: 'initialize-release' stamp: 'lr 7/23/2010 07:49'!
+realName: aSymbol 
+	self realClass: (self class environment at: aSymbol)! !

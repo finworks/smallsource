@@ -1,0 +1,5 @@
+
+!RBMoveMethodRefactoring methodsFor: 'testing' stamp: ''!
+needsToReplaceSelfReferences
+	^self hasSelfReferences 
+		or: [self abstractVariablesRefactoring hasVariablesToAbstract]! !

@@ -1,0 +1,7 @@
+
+!RBMethodName class methodsFor: 'instance creation' stamp: ''!
+selector: aSymbol arguments: stringCollection 
+	^(self new)
+		selector: aSymbol;
+		arguments: stringCollection;
+		yourself! !

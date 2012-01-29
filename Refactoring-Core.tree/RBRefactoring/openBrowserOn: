@@ -1,0 +1,4 @@
+
+!RBRefactoring methodsFor: 'requests' stamp: ''!
+openBrowserOn: anEnvironment 
+	^(self options at: #openBrowser) value: self value: anEnvironment! !

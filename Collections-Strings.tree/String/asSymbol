@@ -1,0 +1,6 @@
+
+!String methodsFor: 'converting' stamp: 'ar 4/10/2005 19:24'!
+asSymbol
+	"Answer the unique Symbol whose characters are the characters of the 
+	string."
+	^Symbol intern: self! !

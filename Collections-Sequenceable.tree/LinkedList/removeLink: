@@ -1,0 +1,4 @@
+
+!LinkedList methodsFor: 'removing' stamp: 'HenrikSperreJohansen 10/18/2009 17:43'!
+removeLink: aLink
+	^self removeLink: aLink ifAbsent: [self error: 'no such method!!']! !

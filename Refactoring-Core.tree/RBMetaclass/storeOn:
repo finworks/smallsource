@@ -1,0 +1,5 @@
+
+!RBMetaclass methodsFor: 'printing' stamp: ''!
+storeOn: aStream 
+	super storeOn: aStream.
+	aStream nextPutAll: ' class'! !

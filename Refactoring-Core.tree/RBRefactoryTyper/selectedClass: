@@ -1,0 +1,4 @@
+
+!RBRefactoryTyper methodsFor: 'accessing' stamp: ''!
+selectedClass: aClass 
+	class := model classFor: aClass! !

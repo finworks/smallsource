@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'shuffling' stamp: 'StephaneDucasse 7/10/2010 18:26'!
+shuffle
+
+	^self shuffleBy: Collection randomForPicking! !

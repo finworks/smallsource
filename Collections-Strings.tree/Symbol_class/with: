@@ -1,0 +1,4 @@
+
+!Symbol class methodsFor: 'instance creation' stamp: 'BenjaminVanRyseghem 11/24/2010 14:44'!
+with: aCharacter
+	^self newFrom: aCharacter asOrderedCollection! !

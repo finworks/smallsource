@@ -1,0 +1,7 @@
+
+!SharedQueue methodsFor: 'copying' stamp: 'nice 10/5/2009 19:07'!
+postCopy
+	super postCopy.
+	monitor critical:
+		[items := items copy.
+		monitor := Monitor new]! !

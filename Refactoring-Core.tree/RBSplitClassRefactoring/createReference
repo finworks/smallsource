@@ -1,0 +1,6 @@
+
+!RBSplitClassRefactoring methodsFor: 'transforming' stamp: 'lr 9/8/2011 20:11'!
+createReference
+	self performComponentRefactoring: (RBAddInstanceVariableRefactoring 
+				variable: referenceVariableName
+				class: class)! !

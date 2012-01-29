@@ -1,0 +1,5 @@
+
+!RunArray methodsFor: 'enumerating' stamp: 'ar 12/27/1999 13:43'!
+runsAndValuesDo: aBlock
+	"Evaluate aBlock with run lengths and values from the receiver"
+	^runs with: values do: aBlock.! !

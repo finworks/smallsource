@@ -1,0 +1,5 @@
+
+!Interval methodsFor: 'private' stamp: ''!
+species
+
+	^Array! !

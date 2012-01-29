@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+name: aSymbol 
+	name := aSymbol! !

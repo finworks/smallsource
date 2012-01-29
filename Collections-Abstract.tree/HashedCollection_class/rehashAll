@@ -1,0 +1,6 @@
+
+!HashedCollection class methodsFor: 'initialization' stamp: 'HenrikSperreJohansen 9/1/2010 22:31'!
+rehashAll
+	"HashedCollection rehashAll"	
+		
+	self allSubclassesDo: #rehashAllInstances! !

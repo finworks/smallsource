@@ -1,0 +1,5 @@
+
+!RBAbstractClass methodsFor: 'variable accessing' stamp: ''!
+addInstanceVariable: aString 
+	self privateInstanceVariableNames add: aString.
+	model addInstanceVariable: aString to: self! !

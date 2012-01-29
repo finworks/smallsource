@@ -1,0 +1,8 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: 'lr 9/8/2011 20:10'!
+renameClassVariable: oldName to: newName in: aRBClass around: aBlock 
+	^self performChange: (RBRenameClassVariableChange 
+				rename: oldName
+				to: newName
+				in: aRBClass)
+		around: aBlock! !

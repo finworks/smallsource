@@ -1,0 +1,9 @@
+
+!NotFound methodsFor: 'private' stamp: 'SvenVanCaekenberghe 4/18/2011 14:28'!
+standardMessageText
+	"Generate a standard textual description"
+	
+	^ String streamContents: [ :stream |
+		stream print: self object.
+		stream << ' not found in '.
+		stream print: self collection ]! !

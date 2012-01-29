@@ -1,0 +1,4 @@
+
+!RBClass methodsFor: 'testing' stamp: ''!
+directlyDefinesClassVariable: aString 
+	^self classVariableNames includes: aString asSymbol! !

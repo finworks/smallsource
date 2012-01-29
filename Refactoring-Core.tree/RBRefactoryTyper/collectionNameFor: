@@ -1,0 +1,4 @@
+
+!RBRefactoryTyper methodsFor: 'printing' stamp: ''!
+collectionNameFor: aString 
+	^'-<1s>-' expandMacrosWith: aString! !

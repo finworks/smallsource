@@ -1,0 +1,4 @@
+
+!RBConjunctiveCondition methodsFor: 'private' stamp: ''!
+unknownFailed
+	^(left errorStringFor: false) , ' OR ' , (right errorStringFor: false)! !

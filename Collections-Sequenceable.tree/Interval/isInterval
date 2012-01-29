@@ -1,0 +1,5 @@
+
+!Interval methodsFor: 'testing' stamp: 'rhi 8/12/2003 09:52'!
+isInterval
+
+	^ true! !

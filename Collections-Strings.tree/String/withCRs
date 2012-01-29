@@ -1,0 +1,6 @@
+
+!String methodsFor: 'formatting' stamp: 'yo 11/3/2004 19:24'!
+withCRs
+	"Return a copy of the receiver in which backslash (\) characters have been replaced with carriage returns."
+
+	^ self collect: [ :c | c = $\ ifTrue: [ Character cr ] ifFalse: [ c ]].! !

@@ -1,0 +1,4 @@
+
+!RBAddMethodRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	class compile: source classified: protocols! !

@@ -1,0 +1,9 @@
+
+!SharedQueue methodsFor: 'printing' stamp: 'ls 6/25/2005 13:56'!
+printOn: aStream
+	monitor critical: [
+		aStream 
+			nextPutAll: self class name;
+			nextPutAll: ' with ';
+			print: items size;
+		 	nextPutAll: ' items' ].! !

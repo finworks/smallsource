@@ -1,0 +1,4 @@
+
+!Collection methodsFor: 'copying' stamp: 'al 12/12/2003 14:31'!
+, aCollection
+	^self copy addAll: aCollection; yourself! !

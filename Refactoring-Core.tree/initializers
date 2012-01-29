@@ -1,0 +1,3 @@
+RBAbstractClass initialize!
+RBClass initialize!
+RBRefactoring initialize!

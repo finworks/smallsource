@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'sma 5/12/2000 11:33'!
+anyOne
+	^ self first! !

@@ -1,0 +1,9 @@
+
+Error subclass: #RBRefactoringError
+	instanceVariableNames: 'actionBlock'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Refactoring-Core-Support'!
+
+!RBRefactoringError commentStamp: 'lr 10/5/2010 16:17' prior: 0!
+The receiver is signaled whenever a precondition of a refactoring is violated. The action block, if defined, might help the user to resolve the issue.!

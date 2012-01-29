@@ -1,0 +1,4 @@
+
+!RBPullUpMethodRefactoring methodsFor: 'transforming' stamp: ''!
+removeDuplicateMethods
+	selectors do: [:each | self removeDuplicatesOf: each]! !

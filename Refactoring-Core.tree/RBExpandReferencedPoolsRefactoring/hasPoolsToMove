@@ -1,0 +1,4 @@
+
+!RBExpandReferencedPoolsRefactoring methodsFor: 'testing' stamp: ''!
+hasPoolsToMove
+	^pools isEmpty not! !

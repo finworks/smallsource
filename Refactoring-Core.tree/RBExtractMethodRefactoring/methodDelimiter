@@ -1,0 +1,4 @@
+
+!RBExtractMethodRefactoring methodsFor: 'transforming' stamp: ''!
+methodDelimiter
+	^'#''place.holder.for.method'''! !

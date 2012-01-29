@@ -1,0 +1,7 @@
+
+!RBVariableRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBSmalltalk variable: aVarName class: aClass 
+	^(self new)
+		model: aRBSmalltalk;
+		variable: aVarName class: aClass;
+		yourself! !

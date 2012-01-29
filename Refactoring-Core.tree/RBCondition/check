@@ -1,0 +1,4 @@
+
+!RBCondition methodsFor: 'checking' stamp: ''!
+check
+	^block value! !

@@ -1,0 +1,7 @@
+
+!RBInlineMethodRefactoring class methodsFor: 'instance creation' stamp: ''!
+inline: anInterval inMethod: aSelector forClass: aClass 
+	^self new 
+		inline: anInterval
+		inMethod: aSelector
+		forClass: aClass! !

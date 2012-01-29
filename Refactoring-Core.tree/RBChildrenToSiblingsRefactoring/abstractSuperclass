@@ -1,0 +1,4 @@
+
+!RBChildrenToSiblingsRefactoring methodsFor: 'private-accessing' stamp: ''!
+abstractSuperclass
+	^self model classNamed: className asSymbol! !

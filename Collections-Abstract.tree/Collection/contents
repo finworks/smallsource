@@ -1,0 +1,4 @@
+
+!Collection methodsFor: 'filter streaming' stamp: 'sma 5/12/2000 12:07'!
+contents
+	^ self! !

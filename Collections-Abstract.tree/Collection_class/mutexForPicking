@@ -1,0 +1,4 @@
+
+!Collection class methodsFor: 'private' stamp: 'lr 11/4/2003 12:08'!
+mutexForPicking
+	^ MutexForPicking! !

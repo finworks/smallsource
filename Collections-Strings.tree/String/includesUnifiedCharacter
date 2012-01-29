@@ -1,0 +1,4 @@
+
+!String methodsFor: 'testing' stamp: 'ar 4/10/2005 16:49'!
+includesUnifiedCharacter
+	^false! !

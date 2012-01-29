@@ -1,0 +1,5 @@
+
+!ByteString methodsFor: 'testing' stamp: 'ar 4/10/2005 18:04'!
+isByteString
+	"Answer whether the receiver is a ByteString"
+	^true! !

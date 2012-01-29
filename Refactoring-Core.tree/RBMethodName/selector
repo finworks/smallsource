@@ -1,0 +1,4 @@
+
+!RBMethodName methodsFor: 'accessing' stamp: ''!
+selector
+	^selector! !

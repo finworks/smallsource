@@ -1,0 +1,4 @@
+
+!RBClass methodsFor: 'accessing' stamp: ''!
+poolDictionaryNames
+	^self privatePoolDictionaryNames copy! !

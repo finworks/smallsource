@@ -1,0 +1,4 @@
+
+!RBInlineMethodRefactoring methodsFor: 'transforming' stamp: ''!
+addSelfReturn
+	inlineParseTree addSelfReturn! !

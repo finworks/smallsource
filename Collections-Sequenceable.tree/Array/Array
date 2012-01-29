@@ -1,0 +1,9 @@
+
+ArrayedCollection variableSubclass: #Array
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: 'TextConstants'
+	category: 'Collections-Sequenceable'!
+
+!Array commentStamp: '<historical>' prior: 0!
+I present an ArrayedCollection whose elements are objects.!

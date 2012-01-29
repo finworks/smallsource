@@ -1,0 +1,6 @@
+
+!SparseLargeTable methodsFor: 'accessing' stamp: 'yo 12/1/2003 15:58'!
+arrayClass
+
+	^(self basicAt: 1) class
+! !

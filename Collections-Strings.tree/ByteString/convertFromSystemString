@@ -1,0 +1,13 @@
+
+!ByteString methodsFor: 'converting' stamp: 'mir 7/20/2004 15:50'!
+convertFromSystemString
+
+	| readStream writeStream converter |
+	readStream := self readStream.
+	writeStream := String new writeStream.
+	converter := LanguageEnvironment defaultSystemConverter.
+	converter ifNil: [^ self].
+	[readStream atEnd] whileFalse: [
+		writeStream nextPut: (converter nextFromStream: readStream)].
+	^ writeStream contents
+! !

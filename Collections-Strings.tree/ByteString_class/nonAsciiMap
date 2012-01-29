@@ -1,0 +1,4 @@
+
+!ByteString class methodsFor: 'contants' stamp: 'HenrikSperreJohansen 1/27/2010 17:50'!
+nonAsciiMap
+	^NonAsciiMap! !

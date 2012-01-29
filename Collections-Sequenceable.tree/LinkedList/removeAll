@@ -1,0 +1,6 @@
+
+!LinkedList methodsFor: 'removing' stamp: 'nice 1/10/2009 00:23'!
+removeAll
+	"Implementation note: this has to be fast"
+
+	firstLink := lastLink := nil! !

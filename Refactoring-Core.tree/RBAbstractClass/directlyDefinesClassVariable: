@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'testing' stamp: ''!
+directlyDefinesClassVariable: aString 
+	self subclassResponsibility! !

@@ -1,0 +1,6 @@
+
+!SparseLargeArray methodsFor: 'accessing' stamp: 'JB 11/26/2010 16:38'!
+noCheckAt: index
+      ^(self basicAt: index - base // chunkSize + 1)
+               ifNil: [defaultValue]
+               ifNotNil: [:chunk| chunk at: index - base \\ chunkSize + 1]! !

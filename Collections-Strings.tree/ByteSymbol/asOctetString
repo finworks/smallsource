@@ -1,0 +1,4 @@
+
+!ByteSymbol methodsFor: 'converting' stamp: 'ar 4/10/2005 22:12'!
+asOctetString
+	^ self! !

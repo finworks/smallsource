@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'converting' stamp: 'di 11/6/1998 09:35'!
+isSequenceable
+	^ true! !

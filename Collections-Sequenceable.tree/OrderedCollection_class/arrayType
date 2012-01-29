@@ -1,0 +1,4 @@
+
+!OrderedCollection class methodsFor: 'private' stamp: 'cmm 10/25/2010 22:26'!
+arrayType
+	^ Array! !

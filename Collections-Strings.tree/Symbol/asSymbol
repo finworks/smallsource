@@ -1,0 +1,4 @@
+
+!Symbol methodsFor: 'converting' stamp: ''!
+asSymbol 
+	"Refer to the comment in String|asSymbol."! !

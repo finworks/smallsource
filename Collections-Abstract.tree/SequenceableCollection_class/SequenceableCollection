@@ -1,0 +1,4 @@
+
+SequenceableCollection class
+	uses: TSortable classTrait
+	instanceVariableNames: ''!

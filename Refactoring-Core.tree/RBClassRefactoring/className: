@@ -1,0 +1,4 @@
+
+!RBClassRefactoring methodsFor: 'initialize-release' stamp: ''!
+className: aName
+	className := aName! !

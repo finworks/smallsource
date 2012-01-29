@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'private' stamp: ''!
+addSubclass: aRBClass 
+	self subclasses add: aRBClass! !

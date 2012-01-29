@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'enumerating' stamp: 'nk 8/23/2003 10:42'!
+nextToLast
+	^self at: self size - 1! !

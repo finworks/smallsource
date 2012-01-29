@@ -1,0 +1,7 @@
+
+!SharedQueue methodsFor: 'initializing' stamp: 'alain.plantec 5/28/2009 10:22'!
+initialize
+	super initialize.
+	monitor := Monitor new.
+	items := OrderedCollection new.
+! !

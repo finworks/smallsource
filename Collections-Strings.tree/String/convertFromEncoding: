@@ -1,0 +1,4 @@
+
+!String methodsFor: 'converting' stamp: 'KR 1/30/2006 21:47'!
+convertFromEncoding: encodingName
+	^self convertFromWithConverter: (TextConverter newForEncoding: encodingName)! !

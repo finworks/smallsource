@@ -1,0 +1,4 @@
+
+!RBCondition methodsFor: 'accessing' stamp: ''!
+errorBlockFor: aBoolean
+	^errorBlock! !

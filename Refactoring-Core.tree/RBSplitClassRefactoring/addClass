@@ -1,0 +1,10 @@
+
+!RBSplitClassRefactoring methodsFor: 'private-transforming' stamp: 'lr 9/8/2011 20:11'!
+addClass
+	self performComponentRefactoring: (RBAddClassRefactoring 
+				model: self model
+				addClass: newClassName
+				superclass: Object
+				subclasses: #()
+				category: class category).
+	newClass := self model classNamed: newClassName! !

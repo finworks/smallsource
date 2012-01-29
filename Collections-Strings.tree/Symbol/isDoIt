@@ -1,0 +1,5 @@
+
+!Symbol methodsFor: 'testing' stamp: 'md 8/27/2005 16:33'!
+isDoIt
+
+	^ (self == #DoIt) or: [self == #DoItIn:].! !

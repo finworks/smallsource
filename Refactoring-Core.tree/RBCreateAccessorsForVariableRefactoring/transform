@@ -1,0 +1,6 @@
+
+!RBCreateAccessorsForVariableRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		createGetterAccessor;
+		createSetterAccessor! !

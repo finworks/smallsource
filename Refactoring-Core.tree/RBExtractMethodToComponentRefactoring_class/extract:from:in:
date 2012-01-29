@@ -1,0 +1,7 @@
+
+!RBExtractMethodToComponentRefactoring class methodsFor: 'instance creation' stamp: ''!
+extract: anInterval from: aSelector in: aClass 
+	^self new
+		extract: anInterval
+		from: aSelector
+		in: aClass! !

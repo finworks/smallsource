@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'accessing' stamp: ''!
+allPoolDictionaryNames
+	^self subclassResponsibility! !

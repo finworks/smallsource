@@ -1,0 +1,4 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'TristanBourgois 4/30/2010 16:13'!
+array
+	^ array! !

@@ -1,0 +1,5 @@
+
+!ArrayedCollection methodsFor: 'private' stamp: ''!
+defaultElement
+
+	^nil! !

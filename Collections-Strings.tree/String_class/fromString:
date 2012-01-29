@@ -1,0 +1,6 @@
+
+!String class methodsFor: 'instance creation' stamp: 'yo 11/3/2004 19:24'!
+fromString: aString 
+	"Answer an instance of me that is a copy of the argument, aString."
+	
+	^ aString copyFrom: 1 to: aString size! !

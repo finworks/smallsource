@@ -1,0 +1,4 @@
+
+!SharedPool class methodsFor: '*refactoring-core' stamp: 'dvf 9/17/2003 03:10'!
+keys
+	^self classPool keys! !

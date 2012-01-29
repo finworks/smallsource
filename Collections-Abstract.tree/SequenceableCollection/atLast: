@@ -1,0 +1,7 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'nk 6/12/2004 17:06'!
+atLast: indexFromEnd
+	"Return element at indexFromEnd from the last position.
+	 atLast: 1, returns the last element"
+
+	^ self atLast: indexFromEnd ifAbsent: [self error: 'index out of range']! !

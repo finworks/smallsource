@@ -1,0 +1,6 @@
+
+!Symbol methodsFor: 'testing' stamp: 'StephaneDucasse 5/28/2011 13:42'!
+isUnary
+	"Answer whether the receiver is an unary message selector."
+
+	^ self precedence = 1! !

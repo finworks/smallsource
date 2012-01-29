@@ -1,0 +1,7 @@
+
+!String methodsFor: 'accessing' stamp: 'nice 7/27/2007 22:58'!
+indexOfSubCollection: sub startingAt: start ifAbsent: exceptionBlock
+	| index |
+	index := self findString: sub startingAt: start.
+	index = 0 ifTrue: [^ exceptionBlock value].
+	^ index! !

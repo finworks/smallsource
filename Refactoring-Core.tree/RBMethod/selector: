@@ -1,0 +1,4 @@
+
+!RBMethod methodsFor: 'accessing' stamp: ''!
+selector: aSymbol 
+	selector := aSymbol! !

@@ -1,0 +1,6 @@
+
+!Heap methodsFor: 'accessing' stamp: 'nice 3/26/2011 17:38'!
+at: index
+	"Heap are not designed to be accessed sequentially."
+	
+	self shouldNotImplement.! !

@@ -1,0 +1,5 @@
+
+!Heap class methodsFor: 'instance creation' stamp: 'ar 9/10/1999 14:13'!
+sortBlock: aBlock
+	"Create a new heap sorted by the given block"
+	^self new sortBlock: aBlock! !

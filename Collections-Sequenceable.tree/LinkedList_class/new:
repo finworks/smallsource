@@ -1,0 +1,5 @@
+
+!LinkedList class methodsFor: 'instance creation' stamp: 'HenrikSperreJohansen 10/19/2009 15:03'!
+new: anInt
+	"LinkedList don't need capacity"
+	^self new! !

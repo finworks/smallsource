@@ -1,0 +1,6 @@
+
+!Character methodsFor: 'converting' stamp: ''!
+asCharacter
+	"Answer the receiver itself."
+
+	^self! !

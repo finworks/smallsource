@@ -1,0 +1,7 @@
+
+!String methodsFor: 'splitjoin' stamp: 'onierstrasz 4/12/2009 20:21'!
+join: aCollection 
+	^ String
+		streamContents: [:stream | aCollection
+				do: [:each | stream nextPutAll: each asString] "NB: coerce elements to Strings"
+				separatedBy: [stream nextPutAll: self]]! !

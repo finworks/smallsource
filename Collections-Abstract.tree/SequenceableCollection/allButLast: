@@ -1,0 +1,7 @@
+
+!SequenceableCollection methodsFor: 'accessing' stamp: 'sma 6/1/2000 15:35'!
+allButLast: n
+	"Answer a copy of the receiver containing all but the last n
+	elements. Raise an error if there are not enough elements."
+
+	^ self copyFrom: 1 to: self size - n! !

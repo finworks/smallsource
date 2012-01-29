@@ -1,0 +1,4 @@
+
+!LinkedList methodsFor: 'copying' stamp: 'HenrikSperreJohansen 10/19/2009 15:09'!
+copyWith: newElement
+	^self copy add: newElement; yourself! !

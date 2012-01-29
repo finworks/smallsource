@@ -1,0 +1,13 @@
+
+!ByteString methodsFor: 'converting' stamp: 'yo 11/11/2002 12:20'!
+convertFromCompoundText
+
+	| readStream writeStream converter |
+	readStream := self readStream.
+	writeStream := String new writeStream.
+	converter := CompoundTextConverter new.
+	converter ifNil: [^ self].
+	[readStream atEnd] whileFalse: [
+		writeStream nextPut: (converter nextFromStream: readStream)].
+	^ writeStream contents
+! !

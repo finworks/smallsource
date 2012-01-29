@@ -1,0 +1,4 @@
+
+!String methodsFor: 'accessing' stamp: 'BenjaminVanRyseghem 11/24/2010 14:31'!
+typeTable
+	^ self class typeTable! !

@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'enumerating' stamp: 'di 7/13/97 09:44'!
+collectWithIndex: elementAndIndexBlock
+	"Use the new version with consistent naming"
+	^ self withIndexCollect: elementAndIndexBlock! !

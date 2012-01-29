@@ -1,0 +1,4 @@
+
+!RBCondition class methodsFor: 'utilities' stamp: ''!
+reservedNames
+	^#('self' 'true' 'false' 'nil' 'thisContext' 'super')! !

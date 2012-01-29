@@ -1,0 +1,4 @@
+
+!RBAbstractClass methodsFor: 'testing' stamp: ''!
+directlyDefinesInstanceVariable: aString 
+	^self instanceVariableNames includes: aString! !

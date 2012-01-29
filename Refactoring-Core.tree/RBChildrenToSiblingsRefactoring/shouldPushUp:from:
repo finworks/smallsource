@@ -1,0 +1,8 @@
+
+!RBChildrenToSiblingsRefactoring methodsFor: 'private-methods' stamp: 'lr 10/26/2009 22:09'!
+shouldPushUp: aSelector from: aClass 
+	^ ((aClass isMeta 
+		ifTrue: [ subclasses collect: [ :each | each theMetaClass ] ]
+		ifFalse: [ subclasses ]) 
+		detect: [ :each | (each directlyDefinesMethod: aSelector) not ]
+		ifNone: [ nil ]) notNil! !

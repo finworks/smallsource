@@ -1,0 +1,7 @@
+
+!String methodsFor: 'copying' stamp: 'yo 11/3/2004 19:24'!
+copyReplaceTokens: oldSubstring with: newSubstring 
+	"Replace all occurrences of oldSubstring that are surrounded
+	by non-alphanumeric characters"
+	^ self copyReplaceAll: oldSubstring with: newSubstring asTokens: true
+	"'File asFile Files File''s File' copyReplaceTokens: 'File' with: 'Snick'"! !

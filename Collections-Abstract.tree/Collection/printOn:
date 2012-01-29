@@ -1,0 +1,7 @@
+
+!Collection methodsFor: 'printing' stamp: 'sma 6/1/2000 09:41'!
+printOn: aStream 
+	"Append a sequence of characters that identify the receiver to aStream."
+
+	self printNameOn: aStream.
+	self printElementsOn: aStream! !

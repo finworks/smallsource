@@ -1,0 +1,5 @@
+
+!RunArray methodsFor: 'accessing' stamp: ''!
+at: index
+
+	self at: index setRunOffsetAndValue: [:run :offset :value | ^value]! !

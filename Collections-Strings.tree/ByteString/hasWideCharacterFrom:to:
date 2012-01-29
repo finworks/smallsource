@@ -1,0 +1,5 @@
+
+!ByteString methodsFor: 'testing' stamp: 'HenrikSperreJohansen 9/1/2009 00:44'!
+hasWideCharacterFrom: start to: stop
+	"Only WideStrings contain these characters"
+	^false! !

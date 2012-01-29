@@ -1,0 +1,4 @@
+
+!OrderedCollection class methodsFor: 'instance creation' stamp: 'cmm 10/25/2010 22:28'!
+new: anInteger withAll: anObject
+	^ self basicNew setContents: (self arrayType new: anInteger withAll: anObject)! !

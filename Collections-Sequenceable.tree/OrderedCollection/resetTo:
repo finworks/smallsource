@@ -1,0 +1,5 @@
+
+!OrderedCollection methodsFor: 'private' stamp: 'ar 4/16/1999 07:59'!
+resetTo: index
+	firstIndex := index.
+	lastIndex := firstIndex - 1! !

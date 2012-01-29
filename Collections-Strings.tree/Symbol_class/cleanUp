@@ -1,0 +1,6 @@
+
+!Symbol class methodsFor: 'cleanup' stamp: 'StephaneDucasse 3/9/2010 22:17'!
+cleanUp
+	"Flush caches"
+
+	self compactSymbolTable.! !

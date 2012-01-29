@@ -1,0 +1,5 @@
+
+!RBNegationCondition methodsFor: 'initialize-release' stamp: ''!
+condition: aCondition 
+	condition := aCondition.
+	self errorMacro: condition errorMacro! !

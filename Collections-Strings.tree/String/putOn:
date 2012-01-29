@@ -1,0 +1,6 @@
+
+!String methodsFor: 'filter streaming' stamp: 'yo 8/26/2002 22:31'!
+putOn:aStream
+
+	^aStream nextPutAll: self.
+! !

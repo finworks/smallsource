@@ -1,0 +1,6 @@
+
+!WideString methodsFor: 'testing' stamp: 'MarcusDenker 3/28/2011 22:17'!
+isUnicodeStringWithCJK
+
+	^self anySatisfy: [:char | Unicode isUnifiedKanji: char charCode]
+	! !

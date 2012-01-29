@@ -1,0 +1,6 @@
+
+!Symbol class methodsFor: 'initialization' stamp: 'RAA 5/29/2001 14:35'!
+allSymbolTablesDo: aBlock after: aSymbol
+
+	NewSymbols do: aBlock after: aSymbol.
+	SymbolTable do: aBlock after: aSymbol.! !

@@ -1,0 +1,7 @@
+
+!String methodsFor: 'comparing' stamp: 'yo 11/3/2004 19:24'!
+endsWithAnyOf: aCollection
+	aCollection do:[:suffix|
+		(self endsWith: suffix) ifTrue:[^true].
+	].
+	^false! !

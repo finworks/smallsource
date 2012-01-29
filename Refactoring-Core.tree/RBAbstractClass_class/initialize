@@ -1,0 +1,4 @@
+
+!RBAbstractClass class methodsFor: 'class initialization' stamp: ''!
+initialize
+	LookupSuperclass := Object new! !

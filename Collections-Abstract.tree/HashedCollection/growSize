@@ -1,0 +1,7 @@
+
+!HashedCollection methodsFor: 'private' stamp: 'HenrikSperreJohansen 9/1/2010 22:20'!
+growSize
+	"Answer what my next higher table size should be"
+
+	^HashTableSizes atLeast: self capacity * 3 // 2 + 2
+	! !

@@ -1,0 +1,7 @@
+
+!String class methodsFor: 'instance creation' stamp: 'yo 11/3/2004 19:24'!
+crlf
+	"Answer a string containing a carriage return and a linefeed."
+
+	^ self with: Character cr with: Character lf
+! !

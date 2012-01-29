@@ -1,0 +1,4 @@
+
+!RBExtractToTemporaryRefactoring methodsFor: 'transforming' stamp: ''!
+compileNewMethod
+	class compileTree: self parseTree! !

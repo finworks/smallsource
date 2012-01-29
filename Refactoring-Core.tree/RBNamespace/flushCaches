@@ -1,0 +1,5 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: ''!
+flushCaches
+	implementorsCache := IdentityDictionary new.
+	sendersCache := IdentityDictionary new! !

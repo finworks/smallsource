@@ -1,0 +1,7 @@
+
+!RBPushDownMethodRefactoring class methodsFor: 'instance creation' stamp: ''!
+model: aRBSmalltalk pushDown: selectorCollection from: aClass 
+	^(self new)
+		model: aRBSmalltalk;
+		pushDown: selectorCollection from: aClass;
+		yourself! !

@@ -1,0 +1,9 @@
+
+!RBNamespace methodsFor: 'private' stamp: 'lr 4/7/2010 13:45'!
+privateReferencesTo: aSelector 
+	| methods |
+	methods := OrderedCollection new.
+	self allClassesDo: [ :class |
+		(class whichSelectorsReferToSymbol: aSelector)
+			do: [ :selector | methods add: (class methodFor: selector) ] ].
+	^ methods! !

@@ -1,0 +1,6 @@
+
+!LinkedList methodsFor: 'accessing' stamp: 'HenrikSperreJohansen 10/18/2009 17:20'!
+first
+	"Answer the first link. Create an error notification if the receiver is 
+	empty."
+^self firstLink value! !

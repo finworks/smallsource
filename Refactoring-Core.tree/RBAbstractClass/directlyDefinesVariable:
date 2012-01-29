@@ -1,0 +1,5 @@
+
+!RBAbstractClass methodsFor: 'testing' stamp: ''!
+directlyDefinesVariable: aVariableName 
+	^(self directlyDefinesClassVariable: aVariableName) 
+		or: [self directlyDefinesInstanceVariable: aVariableName]! !

@@ -1,0 +1,5 @@
+
+!Collection methodsFor: 'enumerating' stamp: 'ThomasHolzer 4/15/2011 14:52'!
+reduce: aBlock
+	"Convert the collection to an ordered collection (sequenceable collection)"
+	^self asOrderedCollection reduce: aBlock! !

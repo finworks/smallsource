@@ -1,0 +1,6 @@
+
+!RBRemoveClassRefactoring methodsFor: 'transforming' stamp: ''!
+transform
+	self
+		reparentSubclasses;
+		removeClasses! !

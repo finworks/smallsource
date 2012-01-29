@@ -1,0 +1,7 @@
+
+!String methodsFor: 'converting' stamp: 'yo 11/3/2004 19:24'!
+asNumber 
+	"Answer the Number created by interpreting the receiver as the string 
+	representation of a number."
+
+	^Number readFromString: self! !

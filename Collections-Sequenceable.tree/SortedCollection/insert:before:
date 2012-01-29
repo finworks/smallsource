@@ -1,0 +1,4 @@
+
+!SortedCollection methodsFor: 'private' stamp: 'go 4/26/2000 17:17'!
+insert: anObject before: spot
+	self shouldNotImplement! !

@@ -1,0 +1,8 @@
+
+!HashedCollection methodsFor: 'objects from disk' stamp: 'StephaneDucasse 10/18/2010 14:54'!
+comeFullyUpOnReload: smartRefStream
+	"Symbols have new hashes in this image."
+
+	self  compact.
+	"^ self"
+! !

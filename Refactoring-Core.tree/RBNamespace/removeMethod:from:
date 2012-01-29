@@ -1,0 +1,5 @@
+
+!RBNamespace methodsFor: 'private-changes' stamp: ''!
+removeMethod: aSelector from: aRBClass 
+	self flushCaches.
+	^changes removeMethod: aSelector from: aRBClass! !

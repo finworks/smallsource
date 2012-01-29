@@ -1,0 +1,4 @@
+
+!SequenceableCollection methodsFor: 'copying' stamp: 'sma 6/1/2000 16:07'!
+copyEmpty
+	^ self species new: 0! !

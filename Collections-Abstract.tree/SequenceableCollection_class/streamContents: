@@ -1,0 +1,5 @@
+
+!SequenceableCollection class methodsFor: 'stream creation' stamp: 'StephaneDucasse 12/25/2009 12:32'!
+streamContents: blockWithArg
+
+	^self new: 100 streamContents: blockWithArg! !

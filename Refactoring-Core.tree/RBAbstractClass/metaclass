@@ -1,0 +1,5 @@
+
+!RBAbstractClass methodsFor: 'deprecated' stamp: 'lr 10/31/2009 17:32'!
+metaclass
+	self deprecated: 'Use aClass>>#theMetaClass instead'.
+	^ self theMetaClass! !

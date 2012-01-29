@@ -1,0 +1,5 @@
+
+!SequenceableCollection methodsFor: 'testing' stamp: 'StephaneDucasse 3/28/2010 21:07'!
+beginsWithAnyOf: aCollection
+	"Return true if the receiver starts with any of the elements in aCollection."
+	^aCollection anySatisfy:[:prefix| self beginsWith: prefix]! !

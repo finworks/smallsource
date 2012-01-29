@@ -1,0 +1,6 @@
+
+!LinkedList methodsFor: 'private' stamp: 'HenrikSperreJohansen 10/18/2009 17:40'!
+linkOf: anObject 
+	^ self
+		linkOf: anObject
+		ifAbsent: [self error: 'No such element']! !

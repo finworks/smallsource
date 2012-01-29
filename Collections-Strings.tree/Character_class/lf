@@ -1,0 +1,6 @@
+
+!Character class methodsFor: 'accessing untypeable characters' stamp: 'ls 9/8/1998 22:15'!
+lf
+	"Answer the Character representing a linefeed."
+
+	^self value: 10! !

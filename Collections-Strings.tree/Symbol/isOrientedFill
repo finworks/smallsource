@@ -1,0 +1,6 @@
+
+!Symbol methodsFor: 'printing' stamp: 'sw 8/19/1999 11:30'!
+isOrientedFill
+	"Needs to be implemented here because symbols can occupy 'color' slots of morphs."
+
+	^ false! !

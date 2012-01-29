@@ -1,0 +1,5 @@
+
+!RBMethodName methodsFor: 'accessing' stamp: 'lr 6/15/2010 10:25'!
+selector: aSymbol 
+	selector := aSymbol asSymbol.
+	self changed: #selector! !

@@ -1,0 +1,5 @@
+
+!ArrayedCollection methodsFor: 'objects from disk' stamp: 'nk 3/17/2004 18:51'!
+bytesPerElement
+	^self class isBytes ifTrue: [ 1 ] ifFalse: [ 4 ].
+! !

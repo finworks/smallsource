@@ -1,0 +1,5 @@
+
+!Character methodsFor: 'accessing' stamp: 'GabrielOmarCotelli 5/25/2009 16:04'!
+codePoint
+
+	^value! !

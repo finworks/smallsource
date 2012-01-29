@@ -1,0 +1,6 @@
+
+!RBRefactoring methodsFor: 'private' stamp: 'dc 5/8/2007 12:05'!
+classObjectFor: anObject 
+	(anObject isBehavior or: [anObject isTrait]) ifTrue: [^self model classFor: anObject].
+	anObject isSymbol ifTrue: [^self model classNamed: anObject].
+	^anObject! !

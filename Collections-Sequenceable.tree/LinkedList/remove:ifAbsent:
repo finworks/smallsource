@@ -1,0 +1,9 @@
+
+!LinkedList methodsFor: 'removing' stamp: 'slave 01/17/2011 12:59'!
+remove: aLinkOrObject ifAbsent: aBlock 
+	"Remove aLink from the receiver. If it is not there, answer the result of evaluating aBlock."
+	
+	| link |
+	link := self linkOf: aLinkOrObject ifAbsent: [^aBlock value].
+	self removeLink: link ifAbsent: [^aBlock value].
+	^aLinkOrObject! !
