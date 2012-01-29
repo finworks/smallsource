@@ -1,5 +1,7 @@
 Smallsource is a smalltalk project about managing source code. Since Smalltalk is manages source in an image, it often is a problem to interact with source code management systems.
 
+To use it, take a Pharo-1.3 image and just load MonticelloFileTree. Open a monticello browser and select a package. +Repository has a new menu item called "file tree"; select any directory on your PC. Save the package there. You should see a directory <package name>.tree in the directory after you saved. The GemStone-Extensions package contains the gemstone hacks to make it work in GLASS.
+
 What this code currently does, is to add a new kind of Monticello repository, called a file tree. If you add such repository, you will be able to save a monticello package there. The package will be saved as files. You can also load code from this kind of repository. Browse differences works. I'll list the things that do not work as issues :-). The mapping is as follows:
 
 <Package Name>.tree                                is a directory in which the package is saved
