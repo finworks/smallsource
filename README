@@ -1,0 +1,12 @@
+Smallsource is a smalltalk project about managing source code. Since Smalltalk is manages source in an image, it often is a problem to interact with source code management systems.
+
+Here are some ideas:
+1. If we have a file mapping to Smalltalk source, we can manage the source in external source code management systems, such as git or mercurial.
+2. We must somehow interoperate with Monticello and Metacello to be able to interchangeably work with the loads of Smalltalk code out there.
+3. In order to properly interact with source code management systems, we need to write proper, but specific tools for these systems in order to use them from a Smalltalk environment.
+
+This stuff has been done on a Pharo-1.3 image
+
+More to follow...
+
+What would you like to see here?
